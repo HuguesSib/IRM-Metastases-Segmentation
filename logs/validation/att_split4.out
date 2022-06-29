@@ -1,0 +1,67 @@
+[2022-06-23 12:04:32] Dataset split_4.json on model Attention
+[2022-06-23 12:04:35] Model Attention pretrained loaded
+0/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000014-27/reg_img_cropped_bias_correc.nii.gz
+1/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000087-201/reg_img_cropped_bias_correc.nii.gz
+2/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000095-27/reg_img_cropped_bias_correc.nii.gz
+3/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000005-13/reg_img_cropped_bias_correc.nii.gz
+4/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000133-65/reg_img_cropped_bias_correc.nii.gz
+5/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000086-200/reg_img_cropped_bias_correc.nii.gz
+6/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000060-73/reg_img_cropped_bias_correc.nii.gz
+7/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000013-116/reg_img_cropped_bias_correc.nii.gz
+8/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000018-120/reg_img_cropped_bias_correc.nii.gz
+9/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000048-157/reg_img_cropped_bias_correc.nii.gz
+10/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000028-36/reg_img_cropped_bias_correc.nii.gz
+11/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000010-19/reg_img_cropped_bias_correc.nii.gz
+12/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000099-31/reg_img_cropped_bias_correc.nii.gz
+13/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/melanomapreopMRI_nii/000004-66/reg_img_cropped_bias_correc.nii.gz
+14/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000048-6/reg_img_cropped_bias_correc.nii.gz
+15/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000035-144/reg_img_cropped_bias_correc.nii.gz
+16/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000018-26/reg_img_cropped_bias_correc.nii.gz
+17/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000000-10/reg_img_cropped_bias_correc.nii.gz
+18/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000068-80/reg_img_cropped_bias_correc.nii.gz
+19/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000042-151/reg_img_cropped_bias_correc.nii.gz
+20/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000020-39/reg_img_cropped_bias_correc.nii.gz
+21/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000026-34/reg_img_cropped_bias_correc.nii.gz
+22/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000013-21/reg_img_cropped_bias_correc.nii.gz
+23/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000095-27/reg_img_cropped_bias_correc.nii.gz
+24/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000015-23/reg_img_cropped_bias_correc.nii.gz
+25/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000101-34/reg_img_cropped_bias_correc.nii.gz
+26/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000061-172/reg_img_cropped_bias_correc.nii.gz
+27/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000058-17/reg_img_cropped_bias_correc.nii.gz
+28/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000150-86/reg_img_cropped_bias_correc.nii.gz
+29/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000053-66/reg_img_cropped_bias_correc.nii.gz
+30/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000062-75/reg_img_cropped_bias_correc.nii.gz
+31/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/melanomapreopMRI_nii/000001-14/reg_img_cropped_bias_correc.nii.gz
+32/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000004-15/reg_img_cropped_bias_correc.nii.gz
+33/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000076-189/reg_img_cropped_bias_correc.nii.gz
+34/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000134-66/reg_img_cropped_bias_correc.nii.gz
+35/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000014-22/reg_img_cropped_bias_correc.nii.gz
+36/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000018-32/reg_img_cropped_bias_correc.nii.gz
+37/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000002-115/reg_img_cropped_bias_correc.nii.gz
+38/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000015-23/reg_img_cropped_bias_correc.nii.gz
+39/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000037-45/reg_img_cropped_bias_correc.nii.gz
+40/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000049-61/reg_img_cropped_bias_correc.nii.gz
+41/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000014-27/reg_img_cropped_bias_correc.nii.gz
+42/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000062-75/reg_img_cropped_bias_correc.nii.gz
+43/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000021-3/reg_img_cropped_bias_correc.nii.gz
+44/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000031-39/reg_img_cropped_bias_correc.nii.gz
+45/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000122-54/reg_img_cropped_bias_correc.nii.gz
+46/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000124-56/reg_img_cropped_bias_correc.nii.gz
+47/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000050-62/reg_img_cropped_bias_correc.nii.gz
+48/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000123-55/reg_img_cropped_bias_correc.nii.gz
+49/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000023-5/reg_img_cropped_bias_correc.nii.gz
+50/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000151-87/reg_img_cropped_bias_correc.nii.gz
+51/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000011-2/reg_img_cropped_bias_correc.nii.gz
+52/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000000-10/reg_img_cropped_bias_correc.nii.gz
+53/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000001-101/reg_img_cropped_bias_correc.nii.gz
+-----------------------------------------------------
+Number of Tumors : 162
+
+Mean dice : 0.813 (std : 0.201)
+Mean HD : 48.511 (std : 64.781)
+Mean f1_score : 0.813 (std : 0.201)
+Mean accuracy : 1.000 (std : 0.000)
+Mean recall : 0.868 (std : 0.141)
+Mean specificity : 1.000 (std : 0.000)
+Mean precision : 0.807 (std : 0.227)
+Mean prevalence : 0.009 (std : 0.009)

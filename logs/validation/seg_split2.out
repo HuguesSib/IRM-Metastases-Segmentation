@@ -1,0 +1,219 @@
+[2022-06-21 11:25:41] Dataset split_2.json on model SegResNet
+[2022-06-21 11:25:45] Model SegResNet pretrained loaded
+
+0/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000030-38/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:26:41] current mean dice_metric: 0.4811
+ current hausdorff distance :  148.8271
+
+1/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000090-22/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:27:37] current mean dice_metric: 0.9587
+ current hausdorff distance :  1.4142
+
+2/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000127-6/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:28:30] current mean dice_metric: 0.0211
+ current hausdorff distance :  88.4703
+
+3/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000108-40/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:29:27] current mean dice_metric: 0.6318
+ current hausdorff distance :  121.6824
+
+4/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000014-117/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:30:25] current mean dice_metric: 0.8790
+ current hausdorff distance :  5.8310
+
+5/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000116-48/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:31:22] current mean dice_metric: 0.8249
+ current hausdorff distance :  171.7770
+
+6/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000078-190/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:32:15] current mean dice_metric: 0.9200
+ current hausdorff distance :  2.0000
+
+7/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000065-78/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:33:12] current mean dice_metric: 0.1124
+ current hausdorff distance :  87.1091
+
+8/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000091-23/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:34:09] current mean dice_metric: 0.5612
+ current hausdorff distance :  29.1239
+
+9/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000073-184/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:35:05] current mean dice_metric: 0.9307
+ current hausdorff distance :  43.9090
+
+10/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/melanomapreopMRI_nii/000007-78/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:36:19] current mean dice_metric: 0.0371
+ current hausdorff distance :  85.8895
+
+11/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000079-193/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:37:07] current mean dice_metric: 0.8490
+ current hausdorff distance :  245.8672
+
+12/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000016-119/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:38:04] current mean dice_metric: 0.9101
+ current hausdorff distance :  1.4142
+
+13/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000044-54/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:39:00] current mean dice_metric: 0.7610
+ current hausdorff distance :  6.4031
+
+14/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000146-81/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:39:59] current mean dice_metric: 0.8583
+ current hausdorff distance :  7.0711
+
+15/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000019-35/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:40:56] current mean dice_metric: 0.7894
+ current hausdorff distance :  35.4627
+
+16/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000157-93/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:41:58] current mean dice_metric: 0.6747
+ current hausdorff distance :  47.2758
+
+17/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000006-19/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:42:50] current mean dice_metric: 0.4311
+ current hausdorff distance :  133.7604
+
+18/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000076-189/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:43:47] current mean dice_metric: 0.7191
+ current hausdorff distance :  172.0203
+
+19/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000005-107/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:44:44] current mean dice_metric: 0.6206
+ current hausdorff distance :  152.6896
+
+20/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000035-43/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:45:41] current mean dice_metric: 0.9232
+ current hausdorff distance :  2.0000
+
+21/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000043-51/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:46:39] current mean dice_metric: 0.8227
+ current hausdorff distance :  79.1328
+
+22/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000001-10/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:47:53] current mean dice_metric: 0.9627
+ current hausdorff distance :  1.4142
+
+23/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000097-29/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:48:50] current mean dice_metric: 0.8785
+ current hausdorff distance :  84.7983
+
+24/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000004-15/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:49:48] current mean dice_metric: 0.2745
+ current hausdorff distance :  190.8256
+
+25/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000000-1/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:50:45] current mean dice_metric: 0.6883
+ current hausdorff distance :  247.5330
+
+26/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000010-23/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:51:41] current mean dice_metric: 0.9204
+ current hausdorff distance :  96.1005
+
+27/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000138-71/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:52:55] current mean dice_metric: 0.8577
+ current hausdorff distance :  205.2620
+
+28/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000114-46/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:53:52] current mean dice_metric: 0.9215
+ current hausdorff distance :  1.4142
+
+29/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000142-77/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:54:38] current mean dice_metric: 0.9011
+ current hausdorff distance :  103.7926
+
+30/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000029-138/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:55:31] current mean dice_metric: 0.8632
+ current hausdorff distance :  180.3569
+
+31/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000131-63/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:56:28] current mean dice_metric: 0.7924
+ current hausdorff distance :  120.1208
+
+32/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000064-77/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:57:25] current mean dice_metric: 0.8706
+ current hausdorff distance :  235.0017
+
+33/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000119-51/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:58:27] current mean dice_metric: 0.5751
+ current hausdorff distance :  111.8787
+
+34/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000006-19/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 11:59:19] current mean dice_metric: 0.4311
+ current hausdorff distance :  133.7604
+
+35/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000154-90/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:00:12] current mean dice_metric: 0.1689
+ current hausdorff distance :  174.6454
+
+36/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000121-53/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:01:11] current mean dice_metric: 0.8980
+ current hausdorff distance :  8.0623
+
+37/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000053-163/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:02:08] current mean dice_metric: 0.9364
+ current hausdorff distance :  6.4031
+
+38/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000007-16/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:03:22] current mean dice_metric: 0.9550
+ current hausdorff distance :  1.7321
+
+39/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000012-115/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:04:18] current mean dice_metric: 0.5926
+ current hausdorff distance :  70.4833
+
+40/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000009-21/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:05:11] current mean dice_metric: 0.5218
+ current hausdorff distance :  144.6257
+
+41/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000029-37/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:06:24] current mean dice_metric: 0.9485
+ current hausdorff distance :  51.7731
+
+42/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Breast_nii/000000-11/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:07:21] current mean dice_metric: 0.0000
+ current hausdorff distance :  113.6741
+
+43/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000008-17/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:08:35] current mean dice_metric: 0.9449
+ current hausdorff distance :  2.8284
+
+44/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000050-62/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:09:32] current mean dice_metric: 0.1393
+ current hausdorff distance :  215.1474
+
+45/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000138-71/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:10:45] current mean dice_metric: 0.8577
+ current hausdorff distance :  205.2620
+
+46/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000060-171/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:11:33] current mean dice_metric: 0.4835
+ current hausdorff distance :  160.0312
+
+47/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000003-117/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:12:30] current mean dice_metric: 0.2868
+ current hausdorff distance :  88.6879
+
+48/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000109-41/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:13:27] current mean dice_metric: 0.7550
+ current hausdorff distance :  124.2312
+
+49/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000068-18/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:14:24] current mean dice_metric: 0.9259
+ current hausdorff distance :  2.4495
+
+50/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000126-58/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:15:22] current mean dice_metric: 0.7126
+ current hausdorff distance :  101.5913
+
+51/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000055-69/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:16:14] current mean dice_metric: 0.9527
+ current hausdorff distance :  1.4142
+
+52/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/Melanoma_nii/000028-36/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:17:24] current mean dice_metric: 0.7842
+ current hausdorff distance :  157.2396
+
+53/54 Inference on case /usr/bmicnas01/data-biwi-01/bmicdatasets/Processed/metastases_project/NSCLC_nii/000048-157/reg_img_cropped_bias_correc.nii.gz
+[2022-06-21 12:18:17] current mean dice_metric: 0.9249
+ current hausdorff distance :  1.4142
+0.6933902621062266 92.83491892933509

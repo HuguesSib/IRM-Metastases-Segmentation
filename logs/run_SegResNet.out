@@ -1,0 +1,3538 @@
+MONAI version: 0.9.dev2215
+Numpy version: 1.21.2
+Pytorch version: 1.9.0+cu111
+MONAI flags: HAS_EXT = False, USE_COMPILED = False
+MONAI rev id: e483398c6443d6d9c8c62f18423ffeaa3c2c0448
+MONAI __file__: /itet-stor/hsibille/net_scratch/conda_envs/project/lib/python3.9/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.8
+Nibabel version: 3.1.1
+scikit-image version: 0.19.2
+Pillow version: 9.0.1
+Tensorboard version: 2.8.0
+gdown version: NOT INSTALLED or UNKNOWN VERSION.
+TorchVision version: 0.10.0+cu111
+tqdm version: 4.59.0
+lmdb version: NOT INSTALLED or UNKNOWN VERSION.
+psutil version: NOT INSTALLED or UNKNOWN VERSION.
+pandas version: 1.4.1
+einops version: 0.3.0
+transformers version: NOT INSTALLED or UNKNOWN VERSION.
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+Number of GPU : 1
+Number of training samples :  217 
+Number of validation samples :  54
+[2022-06-18 11:47:54] Model SegResNet set on GPU
+----------
+[2022-06-18 11:47:54] epoch 1/350
+1/108, train_loss: 0.6135
+11/108, train_loss: 0.5459
+21/108, train_loss: 0.5544
+31/108, train_loss: 0.5516
+41/108, train_loss: 0.5487
+51/108, train_loss: 0.5470
+61/108, train_loss: 0.5501
+71/108, train_loss: 0.5292
+81/108, train_loss: 0.5494
+91/108, train_loss: 0.5461
+101/108, train_loss: 0.5458
+[2022-06-18 11:52:39]epoch 1 average loss: 0.5501
+----------
+[2022-06-18 11:52:39] epoch 2/350
+1/108, train_loss: 0.5441
+11/108, train_loss: 0.5434
+21/108, train_loss: 0.5447
+31/108, train_loss: 0.5201
+41/108, train_loss: 0.5302
+51/108, train_loss: 0.5295
+61/108, train_loss: 0.5317
+71/108, train_loss: 0.5334
+81/108, train_loss: 0.5401
+91/108, train_loss: 0.5265
+101/108, train_loss: 0.5240
+[2022-06-18 11:57:56]epoch 2 average loss: 0.5372
+[2022-06-18 11:59:45] New best metric model was saved 
+[2022-06-18 11:59:45] current epoch: 2 current mean dice: 0.0478
+best mean dice: 0.0478 at epoch: 2
+----------
+[2022-06-18 11:59:45] epoch 3/350
+1/108, train_loss: 0.5423
+11/108, train_loss: 0.5322
+21/108, train_loss: 0.5369
+31/108, train_loss: 0.5236
+41/108, train_loss: 0.5261
+51/108, train_loss: 0.5332
+61/108, train_loss: 0.5305
+71/108, train_loss: 0.5246
+81/108, train_loss: 0.5154
+91/108, train_loss: 0.5211
+101/108, train_loss: 0.5090
+[2022-06-18 12:04:53]epoch 3 average loss: 0.5271
+----------
+[2022-06-18 12:04:53] epoch 4/350
+1/108, train_loss: 0.5069
+11/108, train_loss: 0.5351
+21/108, train_loss: 0.5231
+31/108, train_loss: 0.5285
+41/108, train_loss: 0.5293
+51/108, train_loss: 0.5266
+61/108, train_loss: 0.5271
+71/108, train_loss: 0.5320
+81/108, train_loss: 0.5254
+91/108, train_loss: 0.5301
+101/108, train_loss: 0.5161
+[2022-06-18 12:10:08]epoch 4 average loss: 0.5173
+[2022-06-18 12:12:02] New best metric model was saved 
+[2022-06-18 12:12:02] current epoch: 4 current mean dice: 0.0524
+best mean dice: 0.0524 at epoch: 4
+----------
+[2022-06-18 12:12:02] epoch 5/350
+1/108, train_loss: 0.5291
+11/108, train_loss: 0.5031
+21/108, train_loss: 0.5265
+31/108, train_loss: 0.4881
+41/108, train_loss: 0.5211
+51/108, train_loss: 0.5149
+61/108, train_loss: 0.5302
+71/108, train_loss: 0.4987
+81/108, train_loss: 0.5181
+91/108, train_loss: 0.4814
+101/108, train_loss: 0.5234
+[2022-06-18 12:17:09]epoch 5 average loss: 0.5111
+----------
+[2022-06-18 12:17:09] epoch 6/350
+1/108, train_loss: 0.4916
+11/108, train_loss: 0.5224
+21/108, train_loss: 0.5003
+31/108, train_loss: 0.5127
+41/108, train_loss: 0.5005
+51/108, train_loss: 0.5203
+61/108, train_loss: 0.5173
+71/108, train_loss: 0.4440
+81/108, train_loss: 0.5169
+91/108, train_loss: 0.5103
+101/108, train_loss: 0.5247
+[2022-06-18 12:22:25]epoch 6 average loss: 0.5029
+[2022-06-18 12:24:13] New best metric model was saved 
+[2022-06-18 12:24:13] current epoch: 6 current mean dice: 0.0959
+best mean dice: 0.0959 at epoch: 6
+----------
+[2022-06-18 12:24:14] epoch 7/350
+1/108, train_loss: 0.5147
+11/108, train_loss: 0.5001
+21/108, train_loss: 0.5215
+31/108, train_loss: 0.4692
+41/108, train_loss: 0.4697
+51/108, train_loss: 0.5203
+61/108, train_loss: 0.5030
+71/108, train_loss: 0.4846
+81/108, train_loss: 0.4502
+91/108, train_loss: 0.4998
+101/108, train_loss: 0.4859
+[2022-06-18 12:29:25]epoch 7 average loss: 0.4942
+----------
+[2022-06-18 12:29:25] epoch 8/350
+1/108, train_loss: 0.5087
+11/108, train_loss: 0.4272
+21/108, train_loss: 0.4732
+31/108, train_loss: 0.4863
+41/108, train_loss: 0.4831
+51/108, train_loss: 0.4999
+61/108, train_loss: 0.5159
+71/108, train_loss: 0.4716
+81/108, train_loss: 0.5097
+91/108, train_loss: 0.4618
+101/108, train_loss: 0.5152
+[2022-06-18 12:34:39]epoch 8 average loss: 0.4874
+[2022-06-18 12:36:25] current epoch: 8 current mean dice: 0.0815
+best mean dice: 0.0959 at epoch: 6
+----------
+[2022-06-18 12:36:25] epoch 9/350
+1/108, train_loss: 0.4883
+11/108, train_loss: 0.4729
+21/108, train_loss: 0.4800
+31/108, train_loss: 0.4623
+41/108, train_loss: 0.5076
+51/108, train_loss: 0.4744
+61/108, train_loss: 0.4900
+71/108, train_loss: 0.4978
+81/108, train_loss: 0.4471
+91/108, train_loss: 0.4959
+101/108, train_loss: 0.4821
+[2022-06-18 12:41:41]epoch 9 average loss: 0.4776
+----------
+[2022-06-18 12:41:41] epoch 10/350
+1/108, train_loss: 0.5038
+11/108, train_loss: 0.4950
+21/108, train_loss: 0.4791
+31/108, train_loss: 0.5010
+41/108, train_loss: 0.4604
+51/108, train_loss: 0.5012
+61/108, train_loss: 0.5085
+71/108, train_loss: 0.4279
+81/108, train_loss: 0.3992
+91/108, train_loss: 0.5083
+101/108, train_loss: 0.3645
+[2022-06-18 12:46:53]epoch 10 average loss: 0.4690
+[2022-06-18 12:48:40] current epoch: 10 current mean dice: 0.0944
+best mean dice: 0.0959 at epoch: 6
+----------
+[2022-06-18 12:48:40] epoch 11/350
+1/108, train_loss: 0.5086
+11/108, train_loss: 0.4956
+21/108, train_loss: 0.4946
+31/108, train_loss: 0.4736
+41/108, train_loss: 0.4509
+51/108, train_loss: 0.4690
+61/108, train_loss: 0.4594
+71/108, train_loss: 0.4642
+81/108, train_loss: 0.4164
+91/108, train_loss: 0.4783
+101/108, train_loss: 0.4163
+[2022-06-18 12:53:49]epoch 11 average loss: 0.4591
+----------
+[2022-06-18 12:53:49] epoch 12/350
+1/108, train_loss: 0.4996
+11/108, train_loss: 0.4652
+21/108, train_loss: 0.4748
+31/108, train_loss: 0.4945
+41/108, train_loss: 0.3965
+51/108, train_loss: 0.4894
+61/108, train_loss: 0.4872
+71/108, train_loss: 0.4979
+81/108, train_loss: 0.4358
+91/108, train_loss: 0.4507
+101/108, train_loss: 0.4945
+[2022-06-18 12:58:56]epoch 12 average loss: 0.4489
+[2022-06-18 13:00:42] New best metric model was saved 
+[2022-06-18 13:00:42] current epoch: 12 current mean dice: 0.1969
+best mean dice: 0.1969 at epoch: 12
+----------
+[2022-06-18 13:00:42] epoch 13/350
+1/108, train_loss: 0.4651
+11/108, train_loss: 0.4970
+21/108, train_loss: 0.4613
+31/108, train_loss: 0.4989
+41/108, train_loss: 0.4881
+51/108, train_loss: 0.4851
+61/108, train_loss: 0.4299
+71/108, train_loss: 0.3778
+81/108, train_loss: 0.4311
+91/108, train_loss: 0.3795
+101/108, train_loss: 0.3421
+[2022-06-18 13:05:51]epoch 13 average loss: 0.4386
+----------
+[2022-06-18 13:05:51] epoch 14/350
+1/108, train_loss: 0.4880
+11/108, train_loss: 0.3788
+21/108, train_loss: 0.4493
+31/108, train_loss: 0.3163
+41/108, train_loss: 0.4153
+51/108, train_loss: 0.3649
+61/108, train_loss: 0.3781
+71/108, train_loss: 0.4547
+81/108, train_loss: 0.5022
+91/108, train_loss: 0.4083
+101/108, train_loss: 0.3938
+[2022-06-18 13:11:00]epoch 14 average loss: 0.4220
+[2022-06-18 13:12:49] current epoch: 14 current mean dice: 0.1847
+best mean dice: 0.1969 at epoch: 12
+----------
+[2022-06-18 13:12:49] epoch 15/350
+1/108, train_loss: 0.3798
+11/108, train_loss: 0.4333
+21/108, train_loss: 0.4673
+31/108, train_loss: 0.4561
+41/108, train_loss: 0.4825
+51/108, train_loss: 0.3632
+61/108, train_loss: 0.3851
+71/108, train_loss: 0.3429
+81/108, train_loss: 0.4136
+91/108, train_loss: 0.4739
+101/108, train_loss: 0.4304
+[2022-06-18 13:17:56]epoch 15 average loss: 0.4196
+----------
+[2022-06-18 13:17:56] epoch 16/350
+1/108, train_loss: 0.4045
+11/108, train_loss: 0.3358
+21/108, train_loss: 0.2363
+31/108, train_loss: 0.4601
+41/108, train_loss: 0.2852
+51/108, train_loss: 0.3446
+61/108, train_loss: 0.4321
+71/108, train_loss: 0.5004
+81/108, train_loss: 0.4767
+91/108, train_loss: 0.3797
+101/108, train_loss: 0.4511
+[2022-06-18 13:23:03]epoch 16 average loss: 0.3990
+[2022-06-18 13:24:48] current epoch: 16 current mean dice: 0.1969
+best mean dice: 0.1969 at epoch: 12
+----------
+[2022-06-18 13:24:48] epoch 17/350
+1/108, train_loss: 0.2609
+11/108, train_loss: 0.3856
+21/108, train_loss: 0.3761
+31/108, train_loss: 0.2757
+41/108, train_loss: 0.4191
+51/108, train_loss: 0.4109
+61/108, train_loss: 0.4169
+71/108, train_loss: 0.2640
+81/108, train_loss: 0.4565
+91/108, train_loss: 0.3908
+101/108, train_loss: 0.2842
+[2022-06-18 13:30:02]epoch 17 average loss: 0.3891
+----------
+[2022-06-18 13:30:02] epoch 18/350
+1/108, train_loss: 0.2930
+11/108, train_loss: 0.3642
+21/108, train_loss: 0.3679
+31/108, train_loss: 0.3049
+41/108, train_loss: 0.2857
+51/108, train_loss: 0.3604
+61/108, train_loss: 0.4870
+71/108, train_loss: 0.4403
+81/108, train_loss: 0.3130
+91/108, train_loss: 0.3525
+101/108, train_loss: 0.2257
+[2022-06-18 13:35:12]epoch 18 average loss: 0.3846
+[2022-06-18 13:36:56] New best metric model was saved 
+[2022-06-18 13:36:56] current epoch: 18 current mean dice: 0.2210
+best mean dice: 0.2210 at epoch: 18
+----------
+[2022-06-18 13:36:56] epoch 19/350
+1/108, train_loss: 0.3472
+11/108, train_loss: 0.3747
+21/108, train_loss: 0.4510
+31/108, train_loss: 0.4283
+41/108, train_loss: 0.3006
+51/108, train_loss: 0.3938
+61/108, train_loss: 0.2829
+71/108, train_loss: 0.4595
+81/108, train_loss: 0.3292
+91/108, train_loss: 0.4186
+101/108, train_loss: 0.3713
+[2022-06-18 13:42:11]epoch 19 average loss: 0.3754
+----------
+[2022-06-18 13:42:11] epoch 20/350
+1/108, train_loss: 0.5035
+11/108, train_loss: 0.2906
+21/108, train_loss: 0.3361
+31/108, train_loss: 0.4087
+41/108, train_loss: 0.5003
+51/108, train_loss: 0.3795
+61/108, train_loss: 0.3179
+71/108, train_loss: 0.3562
+81/108, train_loss: 0.4357
+91/108, train_loss: 0.2660
+101/108, train_loss: 0.3306
+[2022-06-18 13:47:30]epoch 20 average loss: 0.3532
+[2022-06-18 13:49:17] New best metric model was saved 
+[2022-06-18 13:49:17] current epoch: 20 current mean dice: 0.4507
+best mean dice: 0.4507 at epoch: 20
+----------
+[2022-06-18 13:49:17] epoch 21/350
+1/108, train_loss: 0.3138
+11/108, train_loss: 0.3995
+21/108, train_loss: 0.4105
+31/108, train_loss: 0.3405
+41/108, train_loss: 0.2516
+51/108, train_loss: 0.2705
+61/108, train_loss: 0.4366
+71/108, train_loss: 0.4483
+81/108, train_loss: 0.3428
+91/108, train_loss: 0.4088
+101/108, train_loss: 0.4773
+[2022-06-18 13:54:23]epoch 21 average loss: 0.3370
+----------
+[2022-06-18 13:54:23] epoch 22/350
+1/108, train_loss: 0.3539
+11/108, train_loss: 0.3758
+21/108, train_loss: 0.4533
+31/108, train_loss: 0.2684
+41/108, train_loss: 0.3710
+51/108, train_loss: 0.4432
+61/108, train_loss: 0.3381
+71/108, train_loss: 0.3127
+81/108, train_loss: 0.4156
+91/108, train_loss: 0.3017
+101/108, train_loss: 0.2726
+[2022-06-18 13:59:38]epoch 22 average loss: 0.3381
+[2022-06-18 14:01:24] New best metric model was saved 
+[2022-06-18 14:01:24] current epoch: 22 current mean dice: 0.4885
+best mean dice: 0.4885 at epoch: 22
+----------
+[2022-06-18 14:01:24] epoch 23/350
+1/108, train_loss: 0.3528
+11/108, train_loss: 0.4085
+21/108, train_loss: 0.4815
+31/108, train_loss: 0.4046
+41/108, train_loss: 0.4894
+51/108, train_loss: 0.3063
+61/108, train_loss: 0.2111
+71/108, train_loss: 0.3515
+81/108, train_loss: 0.2245
+91/108, train_loss: 0.2589
+101/108, train_loss: 0.3026
+[2022-06-18 14:06:33]epoch 23 average loss: 0.3192
+----------
+[2022-06-18 14:06:33] epoch 24/350
+1/108, train_loss: 0.1773
+11/108, train_loss: 0.2355
+21/108, train_loss: 0.2846
+31/108, train_loss: 0.2984
+41/108, train_loss: 0.3929
+51/108, train_loss: 0.4133
+61/108, train_loss: 0.4291
+71/108, train_loss: 0.3482
+81/108, train_loss: 0.1484
+91/108, train_loss: 0.3346
+101/108, train_loss: 0.3730
+[2022-06-18 14:11:40]epoch 24 average loss: 0.3215
+[2022-06-18 14:13:24] current epoch: 24 current mean dice: 0.4673
+best mean dice: 0.4885 at epoch: 22
+----------
+[2022-06-18 14:13:24] epoch 25/350
+1/108, train_loss: 0.4000
+11/108, train_loss: 0.3474
+21/108, train_loss: 0.3559
+31/108, train_loss: 0.3315
+41/108, train_loss: 0.3715
+51/108, train_loss: 0.3892
+61/108, train_loss: 0.1446
+71/108, train_loss: 0.4517
+81/108, train_loss: 0.1613
+91/108, train_loss: 0.3844
+101/108, train_loss: 0.4118
+[2022-06-18 14:18:32]epoch 25 average loss: 0.3127
+----------
+[2022-06-18 14:18:32] epoch 26/350
+1/108, train_loss: 0.3102
+11/108, train_loss: 0.4817
+21/108, train_loss: 0.4618
+31/108, train_loss: 0.5005
+41/108, train_loss: 0.3797
+51/108, train_loss: 0.4047
+61/108, train_loss: 0.2428
+71/108, train_loss: 0.2400
+81/108, train_loss: 0.2116
+91/108, train_loss: 0.2883
+101/108, train_loss: 0.3292
+[2022-06-18 14:23:37]epoch 26 average loss: 0.3087
+[2022-06-18 14:25:24] current epoch: 26 current mean dice: 0.4599
+best mean dice: 0.4885 at epoch: 22
+----------
+[2022-06-18 14:25:24] epoch 27/350
+1/108, train_loss: 0.1487
+11/108, train_loss: 0.1980
+21/108, train_loss: 0.2835
+31/108, train_loss: 0.2298
+41/108, train_loss: 0.3359
+51/108, train_loss: 0.3097
+61/108, train_loss: 0.2943
+71/108, train_loss: 0.2439
+81/108, train_loss: 0.3156
+91/108, train_loss: 0.2377
+101/108, train_loss: 0.3027
+[2022-06-18 14:30:36]epoch 27 average loss: 0.3087
+----------
+[2022-06-18 14:30:36] epoch 28/350
+1/108, train_loss: 0.3623
+11/108, train_loss: 0.3985
+21/108, train_loss: 0.1826
+31/108, train_loss: 0.3319
+41/108, train_loss: 0.4571
+51/108, train_loss: 0.2414
+61/108, train_loss: 0.1215
+71/108, train_loss: 0.1870
+81/108, train_loss: 0.3251
+91/108, train_loss: 0.3156
+101/108, train_loss: 0.3092
+[2022-06-18 14:35:41]epoch 28 average loss: 0.3006
+[2022-06-18 14:37:25] New best metric model was saved 
+[2022-06-18 14:37:25] current epoch: 28 current mean dice: 0.5217
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 14:37:25] epoch 29/350
+1/108, train_loss: 0.4521
+11/108, train_loss: 0.3152
+21/108, train_loss: 0.2029
+31/108, train_loss: 0.3847
+41/108, train_loss: 0.1482
+51/108, train_loss: 0.1841
+61/108, train_loss: 0.3997
+71/108, train_loss: 0.2539
+81/108, train_loss: 0.2979
+91/108, train_loss: 0.3152
+101/108, train_loss: 0.2937
+[2022-06-18 14:42:36]epoch 29 average loss: 0.3017
+----------
+[2022-06-18 14:42:36] epoch 30/350
+1/108, train_loss: 0.2941
+11/108, train_loss: 0.3506
+21/108, train_loss: 0.3768
+31/108, train_loss: 0.2849
+41/108, train_loss: 0.3916
+51/108, train_loss: 0.3463
+61/108, train_loss: 0.3360
+71/108, train_loss: 0.3121
+81/108, train_loss: 0.2241
+91/108, train_loss: 0.4314
+101/108, train_loss: 0.1843
+[2022-06-18 14:47:45]epoch 30 average loss: 0.2952
+[2022-06-18 14:49:32] current epoch: 30 current mean dice: 0.3720
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 14:49:32] epoch 31/350
+1/108, train_loss: 0.3670
+11/108, train_loss: 0.2402
+21/108, train_loss: 0.2065
+31/108, train_loss: 0.2616
+41/108, train_loss: 0.2479
+51/108, train_loss: 0.2412
+61/108, train_loss: 0.4549
+71/108, train_loss: 0.2671
+81/108, train_loss: 0.3467
+91/108, train_loss: 0.3252
+101/108, train_loss: 0.2862
+[2022-06-18 14:54:39]epoch 31 average loss: 0.2835
+----------
+[2022-06-18 14:54:40] epoch 32/350
+1/108, train_loss: 0.3713
+11/108, train_loss: 0.3508
+21/108, train_loss: 0.2284
+31/108, train_loss: 0.2988
+41/108, train_loss: 0.1665
+51/108, train_loss: 0.2501
+61/108, train_loss: 0.1944
+71/108, train_loss: 0.2847
+81/108, train_loss: 0.1954
+91/108, train_loss: 0.2615
+101/108, train_loss: 0.2977
+[2022-06-18 14:59:54]epoch 32 average loss: 0.2949
+[2022-06-18 15:01:40] current epoch: 32 current mean dice: 0.4915
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 15:01:40] epoch 33/350
+1/108, train_loss: 0.2835
+11/108, train_loss: 0.4504
+21/108, train_loss: 0.2560
+31/108, train_loss: 0.2622
+41/108, train_loss: 0.2751
+51/108, train_loss: 0.2175
+61/108, train_loss: 0.1889
+71/108, train_loss: 0.2329
+81/108, train_loss: 0.2395
+91/108, train_loss: 0.3907
+101/108, train_loss: 0.3485
+[2022-06-18 15:06:49]epoch 33 average loss: 0.2904
+----------
+[2022-06-18 15:06:49] epoch 34/350
+1/108, train_loss: 0.2602
+11/108, train_loss: 0.1497
+21/108, train_loss: 0.3949
+31/108, train_loss: 0.3116
+41/108, train_loss: 0.3737
+51/108, train_loss: 0.3044
+61/108, train_loss: 0.3555
+71/108, train_loss: 0.3719
+81/108, train_loss: 0.2983
+91/108, train_loss: 0.2832
+101/108, train_loss: 0.1610
+[2022-06-18 15:12:00]epoch 34 average loss: 0.2901
+[2022-06-18 15:13:45] current epoch: 34 current mean dice: 0.4662
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 15:13:45] epoch 35/350
+1/108, train_loss: 0.1766
+11/108, train_loss: 0.3536
+21/108, train_loss: 0.3101
+31/108, train_loss: 0.2645
+41/108, train_loss: 0.3396
+51/108, train_loss: 0.3357
+61/108, train_loss: 0.4097
+71/108, train_loss: 0.4633
+81/108, train_loss: 0.3265
+91/108, train_loss: 0.3447
+101/108, train_loss: 0.1852
+[2022-06-18 15:18:59]epoch 35 average loss: 0.2940
+----------
+[2022-06-18 15:18:59] epoch 36/350
+1/108, train_loss: 0.1385
+11/108, train_loss: 0.1399
+21/108, train_loss: 0.3293
+31/108, train_loss: 0.2309
+41/108, train_loss: 0.2185
+51/108, train_loss: 0.2173
+61/108, train_loss: 0.4484
+71/108, train_loss: 0.2311
+81/108, train_loss: 0.1910
+91/108, train_loss: 0.2908
+101/108, train_loss: 0.2421
+[2022-06-18 15:24:09]epoch 36 average loss: 0.2796
+[2022-06-18 15:26:02] current epoch: 36 current mean dice: 0.4622
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 15:26:02] epoch 37/350
+1/108, train_loss: 0.2439
+11/108, train_loss: 0.3021
+21/108, train_loss: 0.3330
+31/108, train_loss: 0.1381
+41/108, train_loss: 0.1577
+51/108, train_loss: 0.2449
+61/108, train_loss: 0.2728
+71/108, train_loss: 0.3007
+81/108, train_loss: 0.4400
+91/108, train_loss: 0.3788
+101/108, train_loss: 0.3501
+[2022-06-18 15:31:13]epoch 37 average loss: 0.2829
+----------
+[2022-06-18 15:31:13] epoch 38/350
+1/108, train_loss: 0.3726
+11/108, train_loss: 0.2379
+21/108, train_loss: 0.2349
+31/108, train_loss: 0.2400
+41/108, train_loss: 0.1906
+51/108, train_loss: 0.2612
+61/108, train_loss: 0.4308
+71/108, train_loss: 0.3356
+81/108, train_loss: 0.3772
+91/108, train_loss: 0.3264
+101/108, train_loss: 0.1929
+[2022-06-18 15:36:18]epoch 38 average loss: 0.2816
+[2022-06-18 15:38:11] current epoch: 38 current mean dice: 0.4767
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 15:38:11] epoch 39/350
+1/108, train_loss: 0.3615
+11/108, train_loss: 0.2740
+21/108, train_loss: 0.1769
+31/108, train_loss: 0.3950
+41/108, train_loss: 0.3543
+51/108, train_loss: 0.2734
+61/108, train_loss: 0.2072
+71/108, train_loss: 0.1830
+81/108, train_loss: 0.2178
+91/108, train_loss: 0.1946
+101/108, train_loss: 0.3926
+[2022-06-18 15:43:21]epoch 39 average loss: 0.2798
+----------
+[2022-06-18 15:43:21] epoch 40/350
+1/108, train_loss: 0.1603
+11/108, train_loss: 0.2630
+21/108, train_loss: 0.2403
+31/108, train_loss: 0.2504
+41/108, train_loss: 0.4121
+51/108, train_loss: 0.3329
+61/108, train_loss: 0.3377
+71/108, train_loss: 0.4187
+81/108, train_loss: 0.2815
+91/108, train_loss: 0.3403
+101/108, train_loss: 0.2953
+[2022-06-18 15:48:36]epoch 40 average loss: 0.2832
+[2022-06-18 15:50:27] current epoch: 40 current mean dice: 0.3091
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 15:50:27] epoch 41/350
+1/108, train_loss: 0.4143
+11/108, train_loss: 0.4499
+21/108, train_loss: 0.2712
+31/108, train_loss: 0.3653
+41/108, train_loss: 0.3924
+51/108, train_loss: 0.2700
+61/108, train_loss: 0.3205
+71/108, train_loss: 0.3361
+81/108, train_loss: 0.4064
+91/108, train_loss: 0.2739
+101/108, train_loss: 0.2791
+[2022-06-18 15:55:34]epoch 41 average loss: 0.3117
+----------
+[2022-06-18 15:55:34] epoch 42/350
+1/108, train_loss: 0.3899
+11/108, train_loss: 0.2080
+21/108, train_loss: 0.3597
+31/108, train_loss: 0.1133
+41/108, train_loss: 0.2980
+51/108, train_loss: 0.2914
+61/108, train_loss: 0.3320
+71/108, train_loss: 0.5006
+81/108, train_loss: 0.3860
+91/108, train_loss: 0.2111
+101/108, train_loss: 0.3874
+[2022-06-18 16:00:48]epoch 42 average loss: 0.2722
+[2022-06-18 16:02:36] current epoch: 42 current mean dice: 0.5092
+best mean dice: 0.5217 at epoch: 28
+----------
+[2022-06-18 16:02:36] epoch 43/350
+1/108, train_loss: 0.3301
+11/108, train_loss: 0.2161
+21/108, train_loss: 0.2274
+31/108, train_loss: 0.3390
+41/108, train_loss: 0.3378
+51/108, train_loss: 0.3794
+61/108, train_loss: 0.4460
+71/108, train_loss: 0.2228
+81/108, train_loss: 0.2537
+91/108, train_loss: 0.0467
+101/108, train_loss: 0.2390
+[2022-06-18 16:07:47]epoch 43 average loss: 0.2849
+----------
+[2022-06-18 16:07:47] epoch 44/350
+1/108, train_loss: 0.1357
+11/108, train_loss: 0.3397
+21/108, train_loss: 0.2760
+31/108, train_loss: 0.2317
+41/108, train_loss: 0.2694
+51/108, train_loss: 0.1440
+61/108, train_loss: 0.2683
+71/108, train_loss: 0.2498
+81/108, train_loss: 0.3781
+91/108, train_loss: 0.2959
+101/108, train_loss: 0.2744
+[2022-06-18 16:12:55]epoch 44 average loss: 0.2747
+[2022-06-18 16:14:42] New best metric model was saved 
+[2022-06-18 16:14:42] current epoch: 44 current mean dice: 0.5782
+best mean dice: 0.5782 at epoch: 44
+----------
+[2022-06-18 16:14:42] epoch 45/350
+1/108, train_loss: 0.2858
+11/108, train_loss: 0.3140
+21/108, train_loss: 0.3343
+31/108, train_loss: 0.2925
+41/108, train_loss: 0.1805
+51/108, train_loss: 0.2960
+61/108, train_loss: 0.4503
+71/108, train_loss: 0.5013
+81/108, train_loss: 0.3564
+91/108, train_loss: 0.1813
+101/108, train_loss: 0.2913
+[2022-06-18 16:19:49]epoch 45 average loss: 0.2970
+----------
+[2022-06-18 16:19:49] epoch 46/350
+1/108, train_loss: 0.2828
+11/108, train_loss: 0.2833
+21/108, train_loss: 0.2853
+31/108, train_loss: 0.1483
+41/108, train_loss: 0.2419
+51/108, train_loss: 0.1194
+61/108, train_loss: 0.3820
+71/108, train_loss: 0.2387
+81/108, train_loss: 0.3352
+91/108, train_loss: 0.1911
+101/108, train_loss: 0.4055
+[2022-06-18 16:25:00]epoch 46 average loss: 0.2770
+[2022-06-18 16:26:42] current epoch: 46 current mean dice: 0.5618
+best mean dice: 0.5782 at epoch: 44
+----------
+[2022-06-18 16:26:42] epoch 47/350
+1/108, train_loss: 0.3456
+11/108, train_loss: 0.2339
+21/108, train_loss: 0.1552
+31/108, train_loss: 0.2602
+41/108, train_loss: 0.3277
+51/108, train_loss: 0.1950
+61/108, train_loss: 0.1668
+71/108, train_loss: 0.2513
+81/108, train_loss: 0.1637
+91/108, train_loss: 0.2895
+101/108, train_loss: 0.2610
+[2022-06-18 16:31:51]epoch 47 average loss: 0.2747
+----------
+[2022-06-18 16:31:51] epoch 48/350
+1/108, train_loss: 0.1821
+11/108, train_loss: 0.3893
+21/108, train_loss: 0.1886
+31/108, train_loss: 0.2765
+41/108, train_loss: 0.3630
+51/108, train_loss: 0.3028
+61/108, train_loss: 0.2618
+71/108, train_loss: 0.2423
+81/108, train_loss: 0.2620
+91/108, train_loss: 0.3109
+101/108, train_loss: 0.4242
+[2022-06-18 16:37:03]epoch 48 average loss: 0.2703
+[2022-06-18 16:38:45] current epoch: 48 current mean dice: 0.4177
+best mean dice: 0.5782 at epoch: 44
+----------
+[2022-06-18 16:38:45] epoch 49/350
+1/108, train_loss: 0.1733
+11/108, train_loss: 0.2621
+21/108, train_loss: 0.1597
+31/108, train_loss: 0.2276
+41/108, train_loss: 0.2860
+51/108, train_loss: 0.2876
+61/108, train_loss: 0.3333
+71/108, train_loss: 0.1781
+81/108, train_loss: 0.2747
+91/108, train_loss: 0.1675
+101/108, train_loss: 0.2449
+[2022-06-18 16:43:57]epoch 49 average loss: 0.2610
+----------
+[2022-06-18 16:43:57] epoch 50/350
+1/108, train_loss: 0.2048
+11/108, train_loss: 0.1957
+21/108, train_loss: 0.2731
+31/108, train_loss: 0.2734
+41/108, train_loss: 0.1611
+51/108, train_loss: 0.2212
+61/108, train_loss: 0.2376
+71/108, train_loss: 0.2167
+81/108, train_loss: 0.1813
+91/108, train_loss: 0.1185
+101/108, train_loss: 0.0686
+[2022-06-18 16:49:02]epoch 50 average loss: 0.2564
+[2022-06-18 16:50:45] New best metric model was saved 
+[2022-06-18 16:50:45] current epoch: 50 current mean dice: 0.5818
+best mean dice: 0.5818 at epoch: 50
+----------
+[2022-06-18 16:50:45] epoch 51/350
+1/108, train_loss: 0.3315
+11/108, train_loss: 0.1401
+21/108, train_loss: 0.2442
+31/108, train_loss: 0.3438
+41/108, train_loss: 0.2195
+51/108, train_loss: 0.3283
+61/108, train_loss: 0.2746
+71/108, train_loss: 0.3638
+81/108, train_loss: 0.4236
+91/108, train_loss: 0.2812
+101/108, train_loss: 0.1970
+[2022-06-18 16:55:55]epoch 51 average loss: 0.2550
+----------
+[2022-06-18 16:55:55] epoch 52/350
+1/108, train_loss: 0.2343
+11/108, train_loss: 0.1234
+21/108, train_loss: 0.2828
+31/108, train_loss: 0.2220
+41/108, train_loss: 0.2163
+51/108, train_loss: 0.2891
+61/108, train_loss: 0.3951
+71/108, train_loss: 0.3930
+81/108, train_loss: 0.2063
+91/108, train_loss: 0.1980
+101/108, train_loss: 0.2852
+[2022-06-18 17:01:07]epoch 52 average loss: 0.2737
+[2022-06-18 17:02:55] New best metric model was saved 
+[2022-06-18 17:02:55] current epoch: 52 current mean dice: 0.5860
+best mean dice: 0.5860 at epoch: 52
+----------
+[2022-06-18 17:02:55] epoch 53/350
+1/108, train_loss: 0.2452
+11/108, train_loss: 0.3293
+21/108, train_loss: 0.2381
+31/108, train_loss: 0.3827
+41/108, train_loss: 0.2769
+51/108, train_loss: 0.2484
+61/108, train_loss: 0.2105
+71/108, train_loss: 0.1950
+81/108, train_loss: 0.3541
+91/108, train_loss: 0.3534
+101/108, train_loss: 0.3408
+[2022-06-18 17:08:08]epoch 53 average loss: 0.2661
+----------
+[2022-06-18 17:08:08] epoch 54/350
+1/108, train_loss: 0.1611
+11/108, train_loss: 0.3824
+21/108, train_loss: 0.3670
+31/108, train_loss: 0.3427
+41/108, train_loss: 0.3256
+51/108, train_loss: 0.3072
+61/108, train_loss: 0.1926
+71/108, train_loss: 0.2139
+81/108, train_loss: 0.3458
+91/108, train_loss: 0.2131
+101/108, train_loss: 0.2874
+[2022-06-18 17:13:16]epoch 54 average loss: 0.2637
+[2022-06-18 17:15:06] current epoch: 54 current mean dice: 0.5757
+best mean dice: 0.5860 at epoch: 52
+----------
+[2022-06-18 17:15:06] epoch 55/350
+1/108, train_loss: 0.2353
+11/108, train_loss: 0.3505
+21/108, train_loss: 0.1451
+31/108, train_loss: 0.2770
+41/108, train_loss: 0.3897
+51/108, train_loss: 0.3381
+61/108, train_loss: 0.3287
+71/108, train_loss: 0.2131
+81/108, train_loss: 0.2916
+91/108, train_loss: 0.2012
+101/108, train_loss: 0.1146
+[2022-06-18 17:20:11]epoch 55 average loss: 0.2637
+----------
+[2022-06-18 17:20:11] epoch 56/350
+1/108, train_loss: 0.2645
+11/108, train_loss: 0.2757
+21/108, train_loss: 0.0745
+31/108, train_loss: 0.3926
+41/108, train_loss: 0.2748
+51/108, train_loss: 0.1260
+61/108, train_loss: 0.2307
+71/108, train_loss: 0.3545
+81/108, train_loss: 0.2228
+91/108, train_loss: 0.2116
+101/108, train_loss: 0.2506
+[2022-06-18 17:25:16]epoch 56 average loss: 0.2546
+[2022-06-18 17:27:04] New best metric model was saved 
+[2022-06-18 17:27:04] current epoch: 56 current mean dice: 0.6100
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 17:27:04] epoch 57/350
+1/108, train_loss: 0.2836
+11/108, train_loss: 0.3940
+21/108, train_loss: 0.2477
+31/108, train_loss: 0.3493
+41/108, train_loss: 0.1834
+51/108, train_loss: 0.3262
+61/108, train_loss: 0.2046
+71/108, train_loss: 0.2856
+81/108, train_loss: 0.2669
+91/108, train_loss: 0.4097
+101/108, train_loss: 0.2210
+[2022-06-18 17:32:14]epoch 57 average loss: 0.2671
+----------
+[2022-06-18 17:32:14] epoch 58/350
+1/108, train_loss: 0.3029
+11/108, train_loss: 0.3379
+21/108, train_loss: 0.2532
+31/108, train_loss: 0.1709
+41/108, train_loss: 0.2544
+51/108, train_loss: 0.2044
+61/108, train_loss: 0.3940
+71/108, train_loss: 0.3161
+81/108, train_loss: 0.2067
+91/108, train_loss: 0.2018
+101/108, train_loss: 0.1976
+[2022-06-18 17:37:17]epoch 58 average loss: 0.2586
+[2022-06-18 17:39:07] current epoch: 58 current mean dice: 0.5109
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 17:39:07] epoch 59/350
+1/108, train_loss: 0.2473
+11/108, train_loss: 0.2634
+21/108, train_loss: 0.1222
+31/108, train_loss: 0.1924
+41/108, train_loss: 0.1728
+51/108, train_loss: 0.3886
+61/108, train_loss: 0.1856
+71/108, train_loss: 0.2465
+81/108, train_loss: 0.2709
+91/108, train_loss: 0.1972
+101/108, train_loss: 0.2236
+[2022-06-18 17:44:12]epoch 59 average loss: 0.2546
+----------
+[2022-06-18 17:44:12] epoch 60/350
+1/108, train_loss: 0.3043
+11/108, train_loss: 0.3248
+21/108, train_loss: 0.1679
+31/108, train_loss: 0.3179
+41/108, train_loss: 0.2760
+51/108, train_loss: 0.1938
+61/108, train_loss: 0.3317
+71/108, train_loss: 0.2953
+81/108, train_loss: 0.1580
+91/108, train_loss: 0.1225
+101/108, train_loss: 0.1944
+[2022-06-18 17:49:15]epoch 60 average loss: 0.2621
+[2022-06-18 17:50:59] current epoch: 60 current mean dice: 0.5223
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 17:50:59] epoch 61/350
+1/108, train_loss: 0.2572
+11/108, train_loss: 0.1959
+21/108, train_loss: 0.2466
+31/108, train_loss: 0.2016
+41/108, train_loss: 0.1519
+51/108, train_loss: 0.3176
+61/108, train_loss: 0.1487
+71/108, train_loss: 0.2765
+81/108, train_loss: 0.3020
+91/108, train_loss: 0.4169
+101/108, train_loss: 0.3139
+[2022-06-18 17:56:08]epoch 61 average loss: 0.2509
+----------
+[2022-06-18 17:56:08] epoch 62/350
+1/108, train_loss: 0.0958
+11/108, train_loss: 0.1947
+21/108, train_loss: 0.1351
+31/108, train_loss: 0.3636
+41/108, train_loss: 0.2697
+51/108, train_loss: 0.1861
+61/108, train_loss: 0.2150
+71/108, train_loss: 0.3504
+81/108, train_loss: 0.1975
+91/108, train_loss: 0.2842
+101/108, train_loss: 0.2549
+[2022-06-18 18:01:15]epoch 62 average loss: 0.2712
+[2022-06-18 18:02:52] current epoch: 62 current mean dice: 0.5227
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 18:02:52] epoch 63/350
+1/108, train_loss: 0.2927
+11/108, train_loss: 0.1818
+21/108, train_loss: 0.2356
+31/108, train_loss: 0.2321
+41/108, train_loss: 0.3310
+51/108, train_loss: 0.2831
+61/108, train_loss: 0.3370
+71/108, train_loss: 0.2182
+81/108, train_loss: 0.3875
+91/108, train_loss: 0.3318
+101/108, train_loss: 0.1541
+[2022-06-18 18:08:00]epoch 63 average loss: 0.2749
+----------
+[2022-06-18 18:08:00] epoch 64/350
+1/108, train_loss: 0.2172
+11/108, train_loss: 0.1192
+21/108, train_loss: 0.2885
+31/108, train_loss: 0.2857
+41/108, train_loss: 0.2111
+51/108, train_loss: 0.1585
+61/108, train_loss: 0.2208
+71/108, train_loss: 0.2692
+81/108, train_loss: 0.1465
+91/108, train_loss: 0.3021
+101/108, train_loss: 0.3406
+[2022-06-18 18:13:09]epoch 64 average loss: 0.2568
+[2022-06-18 18:14:49] current epoch: 64 current mean dice: 0.5581
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 18:14:49] epoch 65/350
+1/108, train_loss: 0.2033
+11/108, train_loss: 0.2885
+21/108, train_loss: 0.1554
+31/108, train_loss: 0.2861
+41/108, train_loss: 0.2172
+51/108, train_loss: 0.2785
+61/108, train_loss: 0.1273
+71/108, train_loss: 0.1844
+81/108, train_loss: 0.1529
+91/108, train_loss: 0.3707
+101/108, train_loss: 0.3065
+[2022-06-18 18:19:46]epoch 65 average loss: 0.2543
+----------
+[2022-06-18 18:19:46] epoch 66/350
+1/108, train_loss: 0.2801
+11/108, train_loss: 0.1726
+21/108, train_loss: 0.2689
+31/108, train_loss: 0.3364
+41/108, train_loss: 0.2432
+51/108, train_loss: 0.3082
+61/108, train_loss: 0.2515
+71/108, train_loss: 0.1308
+81/108, train_loss: 0.3351
+91/108, train_loss: 0.1333
+101/108, train_loss: 0.2049
+[2022-06-18 18:24:53]epoch 66 average loss: 0.2803
+[2022-06-18 18:26:31] current epoch: 66 current mean dice: 0.4988
+best mean dice: 0.6100 at epoch: 56
+----------
+[2022-06-18 18:26:31] epoch 67/350
+1/108, train_loss: 0.2257
+11/108, train_loss: 0.2840
+21/108, train_loss: 0.2732
+31/108, train_loss: 0.2424
+41/108, train_loss: 0.2380
+51/108, train_loss: 0.0985
+61/108, train_loss: 0.2424
+71/108, train_loss: 0.2920
+81/108, train_loss: 0.2131
+91/108, train_loss: 0.3356
+101/108, train_loss: 0.2072
+[2022-06-18 18:31:34]epoch 67 average loss: 0.2479
+----------
+[2022-06-18 18:31:34] epoch 68/350
+1/108, train_loss: 0.1769
+11/108, train_loss: 0.1830
+21/108, train_loss: 0.2487
+31/108, train_loss: 0.3752
+41/108, train_loss: 0.1880
+51/108, train_loss: 0.1166
+61/108, train_loss: 0.2976
+71/108, train_loss: 0.3572
+81/108, train_loss: 0.1587
+91/108, train_loss: 0.4038
+101/108, train_loss: 0.2498
+[2022-06-18 18:36:41]epoch 68 average loss: 0.2552
+[2022-06-18 18:38:20] New best metric model was saved 
+[2022-06-18 18:38:20] current epoch: 68 current mean dice: 0.6144
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 18:38:20] epoch 69/350
+1/108, train_loss: 0.3976
+11/108, train_loss: 0.1910
+21/108, train_loss: 0.1746
+31/108, train_loss: 0.2118
+41/108, train_loss: 0.3280
+51/108, train_loss: 0.3276
+61/108, train_loss: 0.1946
+71/108, train_loss: 0.3709
+81/108, train_loss: 0.3358
+91/108, train_loss: 0.2934
+101/108, train_loss: 0.4092
+[2022-06-18 18:43:28]epoch 69 average loss: 0.2680
+----------
+[2022-06-18 18:43:28] epoch 70/350
+1/108, train_loss: 0.3274
+11/108, train_loss: 0.2157
+21/108, train_loss: 0.2559
+31/108, train_loss: 0.2138
+41/108, train_loss: 0.4309
+51/108, train_loss: 0.2681
+61/108, train_loss: 0.2492
+71/108, train_loss: 0.3801
+81/108, train_loss: 0.2434
+91/108, train_loss: 0.3434
+101/108, train_loss: 0.3100
+[2022-06-18 18:48:34]epoch 70 average loss: 0.2634
+[2022-06-18 18:50:11] current epoch: 70 current mean dice: 0.5208
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 18:50:11] epoch 71/350
+1/108, train_loss: 0.3146
+11/108, train_loss: 0.2816
+21/108, train_loss: 0.3456
+31/108, train_loss: 0.1801
+41/108, train_loss: 0.2358
+51/108, train_loss: 0.4876
+61/108, train_loss: 0.1489
+71/108, train_loss: 0.2083
+81/108, train_loss: 0.3862
+91/108, train_loss: 0.4425
+101/108, train_loss: 0.2406
+[2022-06-18 18:55:15]epoch 71 average loss: 0.2664
+----------
+[2022-06-18 18:55:15] epoch 72/350
+1/108, train_loss: 0.1875
+11/108, train_loss: 0.1666
+21/108, train_loss: 0.1054
+31/108, train_loss: 0.2123
+41/108, train_loss: 0.1788
+51/108, train_loss: 0.3974
+61/108, train_loss: 0.2448
+71/108, train_loss: 0.1628
+81/108, train_loss: 0.3090
+91/108, train_loss: 0.2546
+101/108, train_loss: 0.2732
+[2022-06-18 19:00:23]epoch 72 average loss: 0.2589
+[2022-06-18 19:02:05] current epoch: 72 current mean dice: 0.5788
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 19:02:05] epoch 73/350
+1/108, train_loss: 0.2833
+11/108, train_loss: 0.3006
+21/108, train_loss: 0.3505
+31/108, train_loss: 0.2906
+41/108, train_loss: 0.2765
+51/108, train_loss: 0.1859
+61/108, train_loss: 0.2458
+71/108, train_loss: 0.1465
+81/108, train_loss: 0.0993
+91/108, train_loss: 0.1539
+101/108, train_loss: 0.1480
+[2022-06-18 19:07:06]epoch 73 average loss: 0.2520
+----------
+[2022-06-18 19:07:06] epoch 74/350
+1/108, train_loss: 0.3569
+11/108, train_loss: 0.2440
+21/108, train_loss: 0.2491
+31/108, train_loss: 0.3287
+41/108, train_loss: 0.2925
+51/108, train_loss: 0.2847
+61/108, train_loss: 0.3939
+71/108, train_loss: 0.3481
+81/108, train_loss: 0.2190
+91/108, train_loss: 0.3263
+101/108, train_loss: 0.0659
+[2022-06-18 19:12:08]epoch 74 average loss: 0.2597
+[2022-06-18 19:13:49] current epoch: 74 current mean dice: 0.5916
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 19:13:49] epoch 75/350
+1/108, train_loss: 0.3034
+11/108, train_loss: 0.2090
+21/108, train_loss: 0.2669
+31/108, train_loss: 0.2110
+41/108, train_loss: 0.3744
+51/108, train_loss: 0.2910
+61/108, train_loss: 0.2517
+71/108, train_loss: 0.2027
+81/108, train_loss: 0.4176
+91/108, train_loss: 0.3767
+101/108, train_loss: 0.4089
+[2022-06-18 19:18:54]epoch 75 average loss: 0.2671
+----------
+[2022-06-18 19:18:54] epoch 76/350
+1/108, train_loss: 0.1654
+11/108, train_loss: 0.2641
+21/108, train_loss: 0.4311
+31/108, train_loss: 0.4352
+41/108, train_loss: 0.3055
+51/108, train_loss: 0.3449
+61/108, train_loss: 0.3044
+71/108, train_loss: 0.1439
+81/108, train_loss: 0.2471
+91/108, train_loss: 0.1534
+101/108, train_loss: 0.2705
+[2022-06-18 19:23:48]epoch 76 average loss: 0.2545
+[2022-06-18 19:25:29] current epoch: 76 current mean dice: 0.5760
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 19:25:29] epoch 77/350
+1/108, train_loss: 0.2696
+11/108, train_loss: 0.2216
+21/108, train_loss: 0.1637
+31/108, train_loss: 0.1816
+41/108, train_loss: 0.1906
+51/108, train_loss: 0.2812
+61/108, train_loss: 0.3788
+71/108, train_loss: 0.2851
+81/108, train_loss: 0.3132
+91/108, train_loss: 0.2636
+101/108, train_loss: 0.4415
+[2022-06-18 19:30:27]epoch 77 average loss: 0.2475
+----------
+[2022-06-18 19:30:27] epoch 78/350
+1/108, train_loss: 0.3836
+11/108, train_loss: 0.3177
+21/108, train_loss: 0.3248
+31/108, train_loss: 0.1858
+41/108, train_loss: 0.3113
+51/108, train_loss: 0.3914
+61/108, train_loss: 0.1989
+71/108, train_loss: 0.3265
+81/108, train_loss: 0.1759
+91/108, train_loss: 0.3240
+101/108, train_loss: 0.2842
+[2022-06-18 19:35:31]epoch 78 average loss: 0.2587
+[2022-06-18 19:37:11] current epoch: 78 current mean dice: 0.5639
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 19:37:11] epoch 79/350
+1/108, train_loss: 0.4520
+11/108, train_loss: 0.0930
+21/108, train_loss: 0.1471
+31/108, train_loss: 0.1958
+41/108, train_loss: 0.2419
+51/108, train_loss: 0.2823
+61/108, train_loss: 0.1499
+71/108, train_loss: 0.1721
+81/108, train_loss: 0.2089
+91/108, train_loss: 0.3945
+101/108, train_loss: 0.3387
+[2022-06-18 19:42:06]epoch 79 average loss: 0.2526
+----------
+[2022-06-18 19:42:06] epoch 80/350
+1/108, train_loss: 0.2295
+11/108, train_loss: 0.2279
+21/108, train_loss: 0.3133
+31/108, train_loss: 0.2782
+41/108, train_loss: 0.3382
+51/108, train_loss: 0.2555
+61/108, train_loss: 0.2465
+71/108, train_loss: 0.3008
+81/108, train_loss: 0.2013
+91/108, train_loss: 0.0969
+101/108, train_loss: 0.2153
+[2022-06-18 19:47:15]epoch 80 average loss: 0.2601
+[2022-06-18 19:49:02] current epoch: 80 current mean dice: 0.4921
+best mean dice: 0.6144 at epoch: 68
+----------
+[2022-06-18 19:49:02] epoch 81/350
+1/108, train_loss: 0.3122
+11/108, train_loss: 0.2974
+21/108, train_loss: 0.1791
+31/108, train_loss: 0.0930
+41/108, train_loss: 0.2454
+51/108, train_loss: 0.1673
+61/108, train_loss: 0.1825
+71/108, train_loss: 0.2343
+81/108, train_loss: 0.3343
+91/108, train_loss: 0.2672
+101/108, train_loss: 0.2170
+[2022-06-18 19:54:09]epoch 81 average loss: 0.2656
+----------
+[2022-06-18 19:54:09] epoch 82/350
+1/108, train_loss: 0.3721
+11/108, train_loss: 0.1348
+21/108, train_loss: 0.3519
+31/108, train_loss: 0.3427
+41/108, train_loss: 0.2350
+51/108, train_loss: 0.1622
+61/108, train_loss: 0.3927
+71/108, train_loss: 0.2099
+81/108, train_loss: 0.2793
+91/108, train_loss: 0.2162
+101/108, train_loss: 0.3173
+[2022-06-18 19:59:15]epoch 82 average loss: 0.2620
+[2022-06-18 20:00:50] New best metric model was saved 
+[2022-06-18 20:00:50] current epoch: 82 current mean dice: 0.6251
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 20:00:51] epoch 83/350
+1/108, train_loss: 0.2953
+11/108, train_loss: 0.2604
+21/108, train_loss: 0.1800
+31/108, train_loss: 0.2361
+41/108, train_loss: 0.1251
+51/108, train_loss: 0.4558
+61/108, train_loss: 0.3310
+71/108, train_loss: 0.1889
+81/108, train_loss: 0.2046
+91/108, train_loss: 0.1537
+101/108, train_loss: 0.2288
+[2022-06-18 20:05:55]epoch 83 average loss: 0.2562
+----------
+[2022-06-18 20:05:55] epoch 84/350
+1/108, train_loss: 0.1781
+11/108, train_loss: 0.2388
+21/108, train_loss: 0.2086
+31/108, train_loss: 0.3309
+41/108, train_loss: 0.3628
+51/108, train_loss: 0.1497
+61/108, train_loss: 0.2929
+71/108, train_loss: 0.1280
+81/108, train_loss: 0.2316
+91/108, train_loss: 0.3565
+101/108, train_loss: 0.2630
+[2022-06-18 20:10:55]epoch 84 average loss: 0.2475
+[2022-06-18 20:12:38] current epoch: 84 current mean dice: 0.6025
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 20:12:38] epoch 85/350
+1/108, train_loss: 0.3006
+11/108, train_loss: 0.1321
+21/108, train_loss: 0.3352
+31/108, train_loss: 0.2748
+41/108, train_loss: 0.2783
+51/108, train_loss: 0.2838
+61/108, train_loss: 0.2690
+71/108, train_loss: 0.1920
+81/108, train_loss: 0.1848
+91/108, train_loss: 0.1396
+101/108, train_loss: 0.1689
+[2022-06-18 20:17:44]epoch 85 average loss: 0.2748
+----------
+[2022-06-18 20:17:44] epoch 86/350
+1/108, train_loss: 0.2173
+11/108, train_loss: 0.4093
+21/108, train_loss: 0.2078
+31/108, train_loss: 0.4483
+41/108, train_loss: 0.2623
+51/108, train_loss: 0.3347
+61/108, train_loss: 0.2784
+71/108, train_loss: 0.1427
+81/108, train_loss: 0.2644
+91/108, train_loss: 0.3059
+101/108, train_loss: 0.2182
+[2022-06-18 20:22:52]epoch 86 average loss: 0.2504
+[2022-06-18 20:24:34] current epoch: 86 current mean dice: 0.4749
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 20:24:35] epoch 87/350
+1/108, train_loss: 0.2859
+11/108, train_loss: 0.3083
+21/108, train_loss: 0.2672
+31/108, train_loss: 0.2885
+41/108, train_loss: 0.3199
+51/108, train_loss: 0.1024
+61/108, train_loss: 0.2809
+71/108, train_loss: 0.1822
+81/108, train_loss: 0.1894
+91/108, train_loss: 0.1558
+101/108, train_loss: 0.1114
+[2022-06-18 20:29:34]epoch 87 average loss: 0.2555
+----------
+[2022-06-18 20:29:34] epoch 88/350
+1/108, train_loss: 0.2545
+11/108, train_loss: 0.3349
+21/108, train_loss: 0.3194
+31/108, train_loss: 0.2805
+41/108, train_loss: 0.1906
+51/108, train_loss: 0.1557
+61/108, train_loss: 0.2398
+71/108, train_loss: 0.1527
+81/108, train_loss: 0.1868
+91/108, train_loss: 0.2924
+101/108, train_loss: 0.2347
+[2022-06-18 20:34:34]epoch 88 average loss: 0.2506
+[2022-06-18 20:36:25] current epoch: 88 current mean dice: 0.5789
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 20:36:25] epoch 89/350
+1/108, train_loss: 0.2757
+11/108, train_loss: 0.3427
+21/108, train_loss: 0.1776
+31/108, train_loss: 0.2161
+41/108, train_loss: 0.2150
+51/108, train_loss: 0.2762
+61/108, train_loss: 0.3830
+71/108, train_loss: 0.2520
+81/108, train_loss: 0.1934
+91/108, train_loss: 0.3563
+101/108, train_loss: 0.1704
+[2022-06-18 20:41:30]epoch 89 average loss: 0.2635
+----------
+[2022-06-18 20:41:30] epoch 90/350
+1/108, train_loss: 0.1565
+11/108, train_loss: 0.3397
+21/108, train_loss: 0.3324
+31/108, train_loss: 0.1164
+41/108, train_loss: 0.3088
+51/108, train_loss: 0.2243
+61/108, train_loss: 0.2238
+71/108, train_loss: 0.2233
+81/108, train_loss: 0.1288
+91/108, train_loss: 0.2362
+101/108, train_loss: 0.3894
+[2022-06-18 20:46:37]epoch 90 average loss: 0.2532
+[2022-06-18 20:48:23] current epoch: 90 current mean dice: 0.5465
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 20:48:24] epoch 91/350
+1/108, train_loss: 0.4597
+11/108, train_loss: 0.2760
+21/108, train_loss: 0.1118
+31/108, train_loss: 0.1817
+41/108, train_loss: 0.2705
+51/108, train_loss: 0.3673
+61/108, train_loss: 0.2456
+71/108, train_loss: 0.2648
+81/108, train_loss: 0.2108
+91/108, train_loss: 0.2284
+101/108, train_loss: 0.1993
+[2022-06-18 20:53:30]epoch 91 average loss: 0.2524
+----------
+[2022-06-18 20:53:30] epoch 92/350
+1/108, train_loss: 0.2789
+11/108, train_loss: 0.3011
+21/108, train_loss: 0.1674
+31/108, train_loss: 0.2323
+41/108, train_loss: 0.1259
+51/108, train_loss: 0.2923
+61/108, train_loss: 0.1972
+71/108, train_loss: 0.2728
+81/108, train_loss: 0.3677
+91/108, train_loss: 0.1458
+101/108, train_loss: 0.1158
+[2022-06-18 20:58:32]epoch 92 average loss: 0.2610
+[2022-06-18 21:00:20] current epoch: 92 current mean dice: 0.5544
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 21:00:20] epoch 93/350
+1/108, train_loss: 0.2727
+11/108, train_loss: 0.2429
+21/108, train_loss: 0.2722
+31/108, train_loss: 0.2752
+41/108, train_loss: 0.1351
+51/108, train_loss: 0.1953
+61/108, train_loss: 0.1990
+71/108, train_loss: 0.3076
+81/108, train_loss: 0.3294
+91/108, train_loss: 0.3275
+101/108, train_loss: 0.3133
+[2022-06-18 21:05:22]epoch 93 average loss: 0.2537
+----------
+[2022-06-18 21:05:22] epoch 94/350
+1/108, train_loss: 0.2376
+11/108, train_loss: 0.3443
+21/108, train_loss: 0.3619
+31/108, train_loss: 0.3293
+41/108, train_loss: 0.3928
+51/108, train_loss: 0.2343
+61/108, train_loss: 0.2707
+71/108, train_loss: 0.3386
+81/108, train_loss: 0.2913
+91/108, train_loss: 0.1025
+101/108, train_loss: 0.2692
+[2022-06-18 21:10:31]epoch 94 average loss: 0.2533
+[2022-06-18 21:12:18] current epoch: 94 current mean dice: 0.5914
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 21:12:18] epoch 95/350
+1/108, train_loss: 0.3841
+11/108, train_loss: 0.3192
+21/108, train_loss: 0.2098
+31/108, train_loss: 0.1930
+41/108, train_loss: 0.2943
+51/108, train_loss: 0.2406
+61/108, train_loss: 0.3876
+71/108, train_loss: 0.2217
+81/108, train_loss: 0.2297
+91/108, train_loss: 0.0441
+101/108, train_loss: 0.2764
+[2022-06-18 21:17:26]epoch 95 average loss: 0.2541
+----------
+[2022-06-18 21:17:26] epoch 96/350
+1/108, train_loss: 0.4125
+11/108, train_loss: 0.2683
+21/108, train_loss: 0.1629
+31/108, train_loss: 0.2420
+41/108, train_loss: 0.1497
+51/108, train_loss: 0.2374
+61/108, train_loss: 0.4093
+71/108, train_loss: 0.0706
+81/108, train_loss: 0.3334
+91/108, train_loss: 0.2891
+101/108, train_loss: 0.2318
+[2022-06-18 21:22:31]epoch 96 average loss: 0.2445
+[2022-06-18 21:24:19] current epoch: 96 current mean dice: 0.5676
+best mean dice: 0.6251 at epoch: 82
+----------
+[2022-06-18 21:24:19] epoch 97/350
+1/108, train_loss: 0.2704
+11/108, train_loss: 0.1902
+21/108, train_loss: 0.2817
+31/108, train_loss: 0.1623
+41/108, train_loss: 0.2205
+51/108, train_loss: 0.2754
+61/108, train_loss: 0.3613
+71/108, train_loss: 0.3638
+81/108, train_loss: 0.1811
+91/108, train_loss: 0.2407
+101/108, train_loss: 0.2846
+[2022-06-18 21:29:32]epoch 97 average loss: 0.2447
+----------
+[2022-06-18 21:29:32] epoch 98/350
+1/108, train_loss: 0.4432
+11/108, train_loss: 0.2881
+21/108, train_loss: 0.3414
+31/108, train_loss: 0.4584
+41/108, train_loss: 0.2083
+51/108, train_loss: 0.4440
+61/108, train_loss: 0.2172
+71/108, train_loss: 0.1835
+81/108, train_loss: 0.3345
+91/108, train_loss: 0.1808
+101/108, train_loss: 0.3350
+[2022-06-18 21:34:40]epoch 98 average loss: 0.2634
+[2022-06-18 21:36:29] New best metric model was saved 
+[2022-06-18 21:36:29] current epoch: 98 current mean dice: 0.6316
+best mean dice: 0.6316 at epoch: 98
+----------
+[2022-06-18 21:36:30] epoch 99/350
+1/108, train_loss: 0.2094
+11/108, train_loss: 0.2716
+21/108, train_loss: 0.3991
+31/108, train_loss: 0.2307
+41/108, train_loss: 0.3765
+51/108, train_loss: 0.2109
+61/108, train_loss: 0.1035
+71/108, train_loss: 0.2257
+81/108, train_loss: 0.2699
+91/108, train_loss: 0.2751
+101/108, train_loss: 0.3677
+[2022-06-18 21:41:40]epoch 99 average loss: 0.2543
+----------
+[2022-06-18 21:41:40] epoch 100/350
+1/108, train_loss: 0.3349
+11/108, train_loss: 0.2092
+21/108, train_loss: 0.3886
+31/108, train_loss: 0.2380
+41/108, train_loss: 0.1963
+51/108, train_loss: 0.2224
+61/108, train_loss: 0.3084
+71/108, train_loss: 0.1316
+81/108, train_loss: 0.1707
+91/108, train_loss: 0.3290
+101/108, train_loss: 0.1690
+[2022-06-18 21:47:04]epoch 100 average loss: 0.2645
+[2022-06-18 21:49:01] current epoch: 100 current mean dice: 0.5412
+best mean dice: 0.6316 at epoch: 98
+----------
+[2022-06-18 21:49:01] epoch 101/350
+1/108, train_loss: 0.3338
+11/108, train_loss: 0.1492
+21/108, train_loss: 0.1715
+31/108, train_loss: 0.2327
+41/108, train_loss: 0.2130
+51/108, train_loss: 0.3568
+61/108, train_loss: 0.1269
+71/108, train_loss: 0.2171
+81/108, train_loss: 0.2221
+91/108, train_loss: 0.1717
+101/108, train_loss: 0.2239
+[2022-06-18 21:54:19]epoch 101 average loss: 0.2542
+----------
+[2022-06-18 21:54:19] epoch 102/350
+1/108, train_loss: 0.2476
+11/108, train_loss: 0.2414
+21/108, train_loss: 0.2268
+31/108, train_loss: 0.3166
+41/108, train_loss: 0.3041
+51/108, train_loss: 0.2498
+61/108, train_loss: 0.2734
+71/108, train_loss: 0.1662
+81/108, train_loss: 0.2864
+91/108, train_loss: 0.2380
+101/108, train_loss: 0.3381
+[2022-06-18 21:59:36]epoch 102 average loss: 0.2594
+[2022-06-18 22:01:21] current epoch: 102 current mean dice: 0.5561
+best mean dice: 0.6316 at epoch: 98
+----------
+[2022-06-18 22:01:21] epoch 103/350
+1/108, train_loss: 0.2496
+11/108, train_loss: 0.2396
+21/108, train_loss: 0.5001
+31/108, train_loss: 0.3146
+41/108, train_loss: 0.3346
+51/108, train_loss: 0.2698
+61/108, train_loss: 0.1867
+71/108, train_loss: 0.1776
+81/108, train_loss: 0.1881
+91/108, train_loss: 0.2007
+101/108, train_loss: 0.3234
+[2022-06-18 22:06:45]epoch 103 average loss: 0.2498
+----------
+[2022-06-18 22:06:45] epoch 104/350
+1/108, train_loss: 0.2943
+11/108, train_loss: 0.2956
+21/108, train_loss: 0.1061
+31/108, train_loss: 0.2294
+41/108, train_loss: 0.3370
+51/108, train_loss: 0.3745
+61/108, train_loss: 0.3371
+71/108, train_loss: 0.3347
+81/108, train_loss: 0.1016
+91/108, train_loss: 0.2820
+101/108, train_loss: 0.1434
+[2022-06-18 22:12:14]epoch 104 average loss: 0.2465
+[2022-06-18 22:14:09] current epoch: 104 current mean dice: 0.6266
+best mean dice: 0.6316 at epoch: 98
+----------
+[2022-06-18 22:14:09] epoch 105/350
+1/108, train_loss: 0.1233
+11/108, train_loss: 0.3638
+21/108, train_loss: 0.3375
+31/108, train_loss: 0.2379
+41/108, train_loss: 0.3197
+51/108, train_loss: 0.2651
+61/108, train_loss: 0.1488
+71/108, train_loss: 0.1368
+81/108, train_loss: 0.3098
+91/108, train_loss: 0.3066
+101/108, train_loss: 0.0716
+[2022-06-18 22:19:29]epoch 105 average loss: 0.2524
+----------
+[2022-06-18 22:19:29] epoch 106/350
+1/108, train_loss: 0.3837
+11/108, train_loss: 0.2720
+21/108, train_loss: 0.2792
+31/108, train_loss: 0.3198
+41/108, train_loss: 0.3200
+51/108, train_loss: 0.2834
+61/108, train_loss: 0.1156
+71/108, train_loss: 0.2711
+81/108, train_loss: 0.1854
+91/108, train_loss: 0.3072
+101/108, train_loss: 0.3935
+[2022-06-18 22:24:52]epoch 106 average loss: 0.2424
+[2022-06-18 22:26:39] New best metric model was saved 
+[2022-06-18 22:26:39] current epoch: 106 current mean dice: 0.6366
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 22:26:39] epoch 107/350
+1/108, train_loss: 0.0497
+11/108, train_loss: 0.1371
+21/108, train_loss: 0.3081
+31/108, train_loss: 0.2080
+41/108, train_loss: 0.1924
+51/108, train_loss: 0.2681
+61/108, train_loss: 0.2284
+71/108, train_loss: 0.2916
+81/108, train_loss: 0.2316
+91/108, train_loss: 0.1716
+101/108, train_loss: 0.3416
+[2022-06-18 22:31:58]epoch 107 average loss: 0.2460
+----------
+[2022-06-18 22:31:58] epoch 108/350
+1/108, train_loss: 0.3982
+11/108, train_loss: 0.3441
+21/108, train_loss: 0.2598
+31/108, train_loss: 0.3705
+41/108, train_loss: 0.1036
+51/108, train_loss: 0.2328
+61/108, train_loss: 0.2139
+71/108, train_loss: 0.3942
+81/108, train_loss: 0.0820
+91/108, train_loss: 0.1382
+101/108, train_loss: 0.2833
+[2022-06-18 22:37:27]epoch 108 average loss: 0.2536
+[2022-06-18 22:39:15] current epoch: 108 current mean dice: 0.5742
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 22:39:15] epoch 109/350
+1/108, train_loss: 0.4536
+11/108, train_loss: 0.1755
+21/108, train_loss: 0.2722
+31/108, train_loss: 0.2874
+41/108, train_loss: 0.2369
+51/108, train_loss: 0.2216
+61/108, train_loss: 0.2378
+71/108, train_loss: 0.2514
+81/108, train_loss: 0.2878
+91/108, train_loss: 0.3066
+101/108, train_loss: 0.2079
+[2022-06-18 22:44:35]epoch 109 average loss: 0.2517
+----------
+[2022-06-18 22:44:35] epoch 110/350
+1/108, train_loss: 0.3865
+11/108, train_loss: 0.3308
+21/108, train_loss: 0.1098
+31/108, train_loss: 0.3474
+41/108, train_loss: 0.3738
+51/108, train_loss: 0.1685
+61/108, train_loss: 0.3253
+71/108, train_loss: 0.2205
+81/108, train_loss: 0.2658
+91/108, train_loss: 0.0929
+101/108, train_loss: 0.3305
+[2022-06-18 22:50:02]epoch 110 average loss: 0.2571
+[2022-06-18 22:51:42] current epoch: 110 current mean dice: 0.6364
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 22:51:43] epoch 111/350
+1/108, train_loss: 0.2903
+11/108, train_loss: 0.2648
+21/108, train_loss: 0.1596
+31/108, train_loss: 0.2981
+41/108, train_loss: 0.3145
+51/108, train_loss: 0.2906
+61/108, train_loss: 0.2176
+71/108, train_loss: 0.3339
+81/108, train_loss: 0.3316
+91/108, train_loss: 0.2350
+101/108, train_loss: 0.3529
+[2022-06-18 22:56:58]epoch 111 average loss: 0.2622
+----------
+[2022-06-18 22:56:58] epoch 112/350
+1/108, train_loss: 0.3530
+11/108, train_loss: 0.1762
+21/108, train_loss: 0.3036
+31/108, train_loss: 0.3293
+41/108, train_loss: 0.4425
+51/108, train_loss: 0.2433
+61/108, train_loss: 0.2709
+71/108, train_loss: 0.3331
+81/108, train_loss: 0.3318
+91/108, train_loss: 0.2249
+101/108, train_loss: 0.2859
+[2022-06-18 23:02:13]epoch 112 average loss: 0.2630
+[2022-06-18 23:04:10] current epoch: 112 current mean dice: 0.6092
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 23:04:10] epoch 113/350
+1/108, train_loss: 0.3298
+11/108, train_loss: 0.3561
+21/108, train_loss: 0.1363
+31/108, train_loss: 0.3351
+41/108, train_loss: 0.2695
+51/108, train_loss: 0.2702
+61/108, train_loss: 0.3809
+71/108, train_loss: 0.2151
+81/108, train_loss: 0.1892
+91/108, train_loss: 0.2641
+101/108, train_loss: 0.3307
+[2022-06-18 23:09:27]epoch 113 average loss: 0.2643
+----------
+[2022-06-18 23:09:27] epoch 114/350
+1/108, train_loss: 0.2609
+11/108, train_loss: 0.1540
+21/108, train_loss: 0.1775
+31/108, train_loss: 0.3855
+41/108, train_loss: 0.1183
+51/108, train_loss: 0.3436
+61/108, train_loss: 0.3169
+71/108, train_loss: 0.2842
+81/108, train_loss: 0.3321
+91/108, train_loss: 0.0968
+101/108, train_loss: 0.3222
+[2022-06-18 23:14:46]epoch 114 average loss: 0.2495
+[2022-06-18 23:16:36] current epoch: 114 current mean dice: 0.6133
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 23:16:36] epoch 115/350
+1/108, train_loss: 0.2586
+11/108, train_loss: 0.2887
+21/108, train_loss: 0.3932
+31/108, train_loss: 0.2603
+41/108, train_loss: 0.2472
+51/108, train_loss: 0.0742
+61/108, train_loss: 0.2698
+71/108, train_loss: 0.1057
+81/108, train_loss: 0.2728
+91/108, train_loss: 0.1226
+101/108, train_loss: 0.3018
+[2022-06-18 23:21:54]epoch 115 average loss: 0.2503
+----------
+[2022-06-18 23:21:54] epoch 116/350
+1/108, train_loss: 0.3183
+11/108, train_loss: 0.2863
+21/108, train_loss: 0.2867
+31/108, train_loss: 0.1074
+41/108, train_loss: 0.3973
+51/108, train_loss: 0.2289
+61/108, train_loss: 0.3266
+71/108, train_loss: 0.3835
+81/108, train_loss: 0.5039
+91/108, train_loss: 0.3154
+101/108, train_loss: 0.0819
+[2022-06-18 23:27:19]epoch 116 average loss: 0.2501
+[2022-06-18 23:29:07] current epoch: 116 current mean dice: 0.5599
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 23:29:07] epoch 117/350
+1/108, train_loss: 0.2163
+11/108, train_loss: 0.4720
+21/108, train_loss: 0.3437
+31/108, train_loss: 0.3943
+41/108, train_loss: 0.2535
+51/108, train_loss: 0.2968
+61/108, train_loss: 0.1652
+71/108, train_loss: 0.2974
+81/108, train_loss: 0.1404
+91/108, train_loss: 0.3530
+101/108, train_loss: 0.3063
+[2022-06-18 23:34:23]epoch 117 average loss: 0.2539
+----------
+[2022-06-18 23:34:23] epoch 118/350
+1/108, train_loss: 0.1778
+11/108, train_loss: 0.2068
+21/108, train_loss: 0.1608
+31/108, train_loss: 0.1671
+41/108, train_loss: 0.2843
+51/108, train_loss: 0.2204
+61/108, train_loss: 0.2360
+71/108, train_loss: 0.2530
+81/108, train_loss: 0.2398
+91/108, train_loss: 0.4473
+101/108, train_loss: 0.3408
+[2022-06-18 23:39:41]epoch 118 average loss: 0.2428
+[2022-06-18 23:41:25] current epoch: 118 current mean dice: 0.6142
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 23:41:25] epoch 119/350
+1/108, train_loss: 0.1514
+11/108, train_loss: 0.2823
+21/108, train_loss: 0.1613
+31/108, train_loss: 0.2106
+41/108, train_loss: 0.3080
+51/108, train_loss: 0.1806
+61/108, train_loss: 0.2261
+71/108, train_loss: 0.3251
+81/108, train_loss: 0.2708
+91/108, train_loss: 0.1610
+101/108, train_loss: 0.2836
+[2022-06-18 23:46:51]epoch 119 average loss: 0.2439
+----------
+[2022-06-18 23:46:51] epoch 120/350
+1/108, train_loss: 0.2682
+11/108, train_loss: 0.2325
+21/108, train_loss: 0.2243
+31/108, train_loss: 0.3326
+41/108, train_loss: 0.2092
+51/108, train_loss: 0.2785
+61/108, train_loss: 0.4339
+71/108, train_loss: 0.2730
+81/108, train_loss: 0.2973
+91/108, train_loss: 0.2122
+101/108, train_loss: 0.1769
+[2022-06-18 23:52:09]epoch 120 average loss: 0.2560
+[2022-06-18 23:53:53] current epoch: 120 current mean dice: 0.6057
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-18 23:53:54] epoch 121/350
+1/108, train_loss: 0.2095
+11/108, train_loss: 0.2979
+21/108, train_loss: 0.1700
+31/108, train_loss: 0.2754
+41/108, train_loss: 0.2911
+51/108, train_loss: 0.2532
+61/108, train_loss: 0.1882
+71/108, train_loss: 0.3539
+81/108, train_loss: 0.1813
+91/108, train_loss: 0.2165
+101/108, train_loss: 0.2109
+[2022-06-18 23:59:14]epoch 121 average loss: 0.2464
+----------
+[2022-06-18 23:59:14] epoch 122/350
+1/108, train_loss: 0.2589
+11/108, train_loss: 0.3834
+21/108, train_loss: 0.2312
+31/108, train_loss: 0.1157
+41/108, train_loss: 0.2068
+51/108, train_loss: 0.4136
+61/108, train_loss: 0.3281
+71/108, train_loss: 0.1140
+81/108, train_loss: 0.2696
+91/108, train_loss: 0.2438
+101/108, train_loss: 0.2332
+[2022-06-19 00:04:30]epoch 122 average loss: 0.2624
+[2022-06-19 00:06:20] current epoch: 122 current mean dice: 0.5356
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 00:06:20] epoch 123/350
+1/108, train_loss: 0.4437
+11/108, train_loss: 0.2805
+21/108, train_loss: 0.2254
+31/108, train_loss: 0.2287
+41/108, train_loss: 0.2665
+51/108, train_loss: 0.3490
+61/108, train_loss: 0.2275
+71/108, train_loss: 0.2607
+81/108, train_loss: 0.3341
+91/108, train_loss: 0.3534
+101/108, train_loss: 0.2911
+[2022-06-19 00:11:37]epoch 123 average loss: 0.2425
+----------
+[2022-06-19 00:11:37] epoch 124/350
+1/108, train_loss: 0.1441
+11/108, train_loss: 0.3216
+21/108, train_loss: 0.2945
+31/108, train_loss: 0.3381
+41/108, train_loss: 0.3563
+51/108, train_loss: 0.3359
+61/108, train_loss: 0.2976
+71/108, train_loss: 0.2232
+81/108, train_loss: 0.1863
+91/108, train_loss: 0.0885
+101/108, train_loss: 0.3023
+[2022-06-19 00:16:56]epoch 124 average loss: 0.2415
+[2022-06-19 00:18:44] current epoch: 124 current mean dice: 0.4052
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 00:18:44] epoch 125/350
+1/108, train_loss: 0.1234
+11/108, train_loss: 0.2338
+21/108, train_loss: 0.3162
+31/108, train_loss: 0.1849
+41/108, train_loss: 0.3991
+51/108, train_loss: 0.2746
+61/108, train_loss: 0.1601
+71/108, train_loss: 0.3244
+81/108, train_loss: 0.2285
+91/108, train_loss: 0.2465
+101/108, train_loss: 0.2434
+[2022-06-19 00:24:04]epoch 125 average loss: 0.2724
+----------
+[2022-06-19 00:24:04] epoch 126/350
+1/108, train_loss: 0.2340
+11/108, train_loss: 0.1734
+21/108, train_loss: 0.3125
+31/108, train_loss: 0.1920
+41/108, train_loss: 0.2123
+51/108, train_loss: 0.3411
+61/108, train_loss: 0.3286
+71/108, train_loss: 0.3112
+81/108, train_loss: 0.2601
+91/108, train_loss: 0.3806
+101/108, train_loss: 0.3074
+[2022-06-19 00:29:21]epoch 126 average loss: 0.2476
+[2022-06-19 00:31:06] current epoch: 126 current mean dice: 0.6065
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 00:31:06] epoch 127/350
+1/108, train_loss: 0.3102
+11/108, train_loss: 0.2943
+21/108, train_loss: 0.4087
+31/108, train_loss: 0.2680
+41/108, train_loss: 0.2945
+51/108, train_loss: 0.1832
+61/108, train_loss: 0.2669
+71/108, train_loss: 0.0978
+81/108, train_loss: 0.3139
+91/108, train_loss: 0.3082
+101/108, train_loss: 0.1016
+[2022-06-19 00:36:26]epoch 127 average loss: 0.2448
+----------
+[2022-06-19 00:36:26] epoch 128/350
+1/108, train_loss: 0.4513
+11/108, train_loss: 0.3200
+21/108, train_loss: 0.2862
+31/108, train_loss: 0.2323
+41/108, train_loss: 0.2114
+51/108, train_loss: 0.1055
+61/108, train_loss: 0.1067
+71/108, train_loss: 0.4058
+81/108, train_loss: 0.1983
+91/108, train_loss: 0.4017
+101/108, train_loss: 0.1509
+[2022-06-19 00:41:46]epoch 128 average loss: 0.2560
+[2022-06-19 00:43:35] current epoch: 128 current mean dice: 0.5328
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 00:43:36] epoch 129/350
+1/108, train_loss: 0.1491
+11/108, train_loss: 0.2318
+21/108, train_loss: 0.3988
+31/108, train_loss: 0.1930
+41/108, train_loss: 0.1870
+51/108, train_loss: 0.2919
+61/108, train_loss: 0.1549
+71/108, train_loss: 0.2837
+81/108, train_loss: 0.3917
+91/108, train_loss: 0.1759
+101/108, train_loss: 0.4109
+[2022-06-19 00:48:45]epoch 129 average loss: 0.2512
+----------
+[2022-06-19 00:48:45] epoch 130/350
+1/108, train_loss: 0.3267
+11/108, train_loss: 0.2585
+21/108, train_loss: 0.1629
+31/108, train_loss: 0.1991
+41/108, train_loss: 0.3844
+51/108, train_loss: 0.2959
+61/108, train_loss: 0.2350
+71/108, train_loss: 0.2958
+81/108, train_loss: 0.2294
+91/108, train_loss: 0.1782
+101/108, train_loss: 0.1682
+[2022-06-19 00:54:03]epoch 130 average loss: 0.2602
+[2022-06-19 00:55:54] current epoch: 130 current mean dice: 0.6015
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 00:55:54] epoch 131/350
+1/108, train_loss: 0.3808
+11/108, train_loss: 0.3425
+21/108, train_loss: 0.3477
+31/108, train_loss: 0.3939
+41/108, train_loss: 0.1750
+51/108, train_loss: 0.3285
+61/108, train_loss: 0.0905
+71/108, train_loss: 0.2270
+81/108, train_loss: 0.2775
+91/108, train_loss: 0.1097
+101/108, train_loss: 0.1485
+[2022-06-19 01:01:18]epoch 131 average loss: 0.2450
+----------
+[2022-06-19 01:01:18] epoch 132/350
+1/108, train_loss: 0.4425
+11/108, train_loss: 0.1969
+21/108, train_loss: 0.4576
+31/108, train_loss: 0.3415
+41/108, train_loss: 0.2179
+51/108, train_loss: 0.2115
+61/108, train_loss: 0.1551
+71/108, train_loss: 0.3593
+81/108, train_loss: 0.1698
+91/108, train_loss: 0.2886
+101/108, train_loss: 0.1046
+[2022-06-19 01:06:44]epoch 132 average loss: 0.2486
+[2022-06-19 01:08:32] current epoch: 132 current mean dice: 0.6017
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 01:08:32] epoch 133/350
+1/108, train_loss: 0.1933
+11/108, train_loss: 0.1892
+21/108, train_loss: 0.2954
+31/108, train_loss: 0.2719
+41/108, train_loss: 0.3101
+51/108, train_loss: 0.2838
+61/108, train_loss: 0.1828
+71/108, train_loss: 0.2141
+81/108, train_loss: 0.1921
+91/108, train_loss: 0.3299
+101/108, train_loss: 0.1931
+[2022-06-19 01:13:52]epoch 133 average loss: 0.2471
+----------
+[2022-06-19 01:13:52] epoch 134/350
+1/108, train_loss: 0.2230
+11/108, train_loss: 0.1935
+21/108, train_loss: 0.2713
+31/108, train_loss: 0.3138
+41/108, train_loss: 0.2116
+51/108, train_loss: 0.1707
+61/108, train_loss: 0.0617
+71/108, train_loss: 0.3073
+81/108, train_loss: 0.1662
+91/108, train_loss: 0.2087
+101/108, train_loss: 0.2133
+[2022-06-19 01:19:10]epoch 134 average loss: 0.2620
+[2022-06-19 01:21:01] current epoch: 134 current mean dice: 0.5592
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 01:21:01] epoch 135/350
+1/108, train_loss: 0.2212
+11/108, train_loss: 0.2748
+21/108, train_loss: 0.2098
+31/108, train_loss: 0.4440
+41/108, train_loss: 0.1810
+51/108, train_loss: 0.2739
+61/108, train_loss: 0.1728
+71/108, train_loss: 0.1372
+81/108, train_loss: 0.4166
+91/108, train_loss: 0.2251
+101/108, train_loss: 0.2191
+[2022-06-19 01:26:17]epoch 135 average loss: 0.2553
+----------
+[2022-06-19 01:26:17] epoch 136/350
+1/108, train_loss: 0.2709
+11/108, train_loss: 0.3650
+21/108, train_loss: 0.0942
+31/108, train_loss: 0.0778
+41/108, train_loss: 0.2628
+51/108, train_loss: 0.1924
+61/108, train_loss: 0.2811
+71/108, train_loss: 0.2278
+81/108, train_loss: 0.4435
+91/108, train_loss: 0.1944
+101/108, train_loss: 0.2228
+[2022-06-19 01:31:35]epoch 136 average loss: 0.2472
+[2022-06-19 01:33:17] current epoch: 136 current mean dice: 0.6094
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 01:33:18] epoch 137/350
+1/108, train_loss: 0.3605
+11/108, train_loss: 0.2246
+21/108, train_loss: 0.1745
+31/108, train_loss: 0.2459
+41/108, train_loss: 0.2371
+51/108, train_loss: 0.1629
+61/108, train_loss: 0.4457
+71/108, train_loss: 0.0942
+81/108, train_loss: 0.1344
+91/108, train_loss: 0.3672
+101/108, train_loss: 0.2791
+[2022-06-19 01:38:46]epoch 137 average loss: 0.2455
+----------
+[2022-06-19 01:38:46] epoch 138/350
+1/108, train_loss: 0.2635
+11/108, train_loss: 0.1653
+21/108, train_loss: 0.3246
+31/108, train_loss: 0.3737
+41/108, train_loss: 0.1785
+51/108, train_loss: 0.1114
+61/108, train_loss: 0.3089
+71/108, train_loss: 0.2819
+81/108, train_loss: 0.2777
+91/108, train_loss: 0.1580
+101/108, train_loss: 0.2063
+[2022-06-19 01:44:11]epoch 138 average loss: 0.2453
+[2022-06-19 01:45:51] current epoch: 138 current mean dice: 0.5715
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 01:45:52] epoch 139/350
+1/108, train_loss: 0.4480
+11/108, train_loss: 0.4191
+21/108, train_loss: 0.1618
+31/108, train_loss: 0.4452
+41/108, train_loss: 0.0863
+51/108, train_loss: 0.2405
+61/108, train_loss: 0.2306
+71/108, train_loss: 0.1935
+81/108, train_loss: 0.3531
+91/108, train_loss: 0.2933
+101/108, train_loss: 0.1604
+[2022-06-19 01:51:09]epoch 139 average loss: 0.2580
+----------
+[2022-06-19 01:51:09] epoch 140/350
+1/108, train_loss: 0.2104
+11/108, train_loss: 0.2371
+21/108, train_loss: 0.2992
+31/108, train_loss: 0.3002
+41/108, train_loss: 0.3145
+51/108, train_loss: 0.3929
+61/108, train_loss: 0.3067
+71/108, train_loss: 0.3156
+81/108, train_loss: 0.4218
+91/108, train_loss: 0.3985
+101/108, train_loss: 0.2365
+[2022-06-19 01:56:27]epoch 140 average loss: 0.2670
+[2022-06-19 01:58:14] current epoch: 140 current mean dice: 0.3324
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 01:58:14] epoch 141/350
+1/108, train_loss: 0.2162
+11/108, train_loss: 0.3392
+21/108, train_loss: 0.3073
+31/108, train_loss: 0.3690
+41/108, train_loss: 0.2754
+51/108, train_loss: 0.1784
+61/108, train_loss: 0.1556
+71/108, train_loss: 0.2124
+81/108, train_loss: 0.2516
+91/108, train_loss: 0.2583
+101/108, train_loss: 0.2844
+[2022-06-19 02:03:32]epoch 141 average loss: 0.2567
+----------
+[2022-06-19 02:03:32] epoch 142/350
+1/108, train_loss: 0.1610
+11/108, train_loss: 0.2531
+21/108, train_loss: 0.2294
+31/108, train_loss: 0.1599
+41/108, train_loss: 0.1710
+51/108, train_loss: 0.1540
+61/108, train_loss: 0.1868
+71/108, train_loss: 0.3094
+81/108, train_loss: 0.2922
+91/108, train_loss: 0.2822
+101/108, train_loss: 0.3025
+[2022-06-19 02:08:56]epoch 142 average loss: 0.2568
+[2022-06-19 02:10:42] current epoch: 142 current mean dice: 0.5371
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 02:10:42] epoch 143/350
+1/108, train_loss: 0.1393
+11/108, train_loss: 0.2759
+21/108, train_loss: 0.3287
+31/108, train_loss: 0.1150
+41/108, train_loss: 0.2968
+51/108, train_loss: 0.1060
+61/108, train_loss: 0.3282
+71/108, train_loss: 0.2285
+81/108, train_loss: 0.3295
+91/108, train_loss: 0.3867
+101/108, train_loss: 0.1789
+[2022-06-19 02:16:00]epoch 143 average loss: 0.2483
+----------
+[2022-06-19 02:16:00] epoch 144/350
+1/108, train_loss: 0.2983
+11/108, train_loss: 0.2746
+21/108, train_loss: 0.3329
+31/108, train_loss: 0.2705
+41/108, train_loss: 0.2754
+51/108, train_loss: 0.2888
+61/108, train_loss: 0.2834
+71/108, train_loss: 0.1607
+81/108, train_loss: 0.1573
+91/108, train_loss: 0.2051
+101/108, train_loss: 0.1101
+[2022-06-19 02:21:24]epoch 144 average loss: 0.2467
+[2022-06-19 02:23:11] current epoch: 144 current mean dice: 0.6085
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 02:23:12] epoch 145/350
+1/108, train_loss: 0.3713
+11/108, train_loss: 0.2396
+21/108, train_loss: 0.1843
+31/108, train_loss: 0.2837
+41/108, train_loss: 0.3081
+51/108, train_loss: 0.2945
+61/108, train_loss: 0.1452
+71/108, train_loss: 0.1564
+81/108, train_loss: 0.2602
+91/108, train_loss: 0.3477
+101/108, train_loss: 0.1554
+[2022-06-19 02:28:39]epoch 145 average loss: 0.2500
+----------
+[2022-06-19 02:28:39] epoch 146/350
+1/108, train_loss: 0.2818
+11/108, train_loss: 0.2168
+21/108, train_loss: 0.2518
+31/108, train_loss: 0.1954
+41/108, train_loss: 0.1535
+51/108, train_loss: 0.2808
+61/108, train_loss: 0.1604
+71/108, train_loss: 0.1119
+81/108, train_loss: 0.2725
+91/108, train_loss: 0.2046
+101/108, train_loss: 0.0793
+[2022-06-19 02:34:02]epoch 146 average loss: 0.2473
+[2022-06-19 02:35:46] current epoch: 146 current mean dice: 0.6226
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 02:35:46] epoch 147/350
+1/108, train_loss: 0.3686
+11/108, train_loss: 0.1650
+21/108, train_loss: 0.1954
+31/108, train_loss: 0.2917
+41/108, train_loss: 0.3282
+51/108, train_loss: 0.1904
+61/108, train_loss: 0.1896
+71/108, train_loss: 0.2738
+81/108, train_loss: 0.3522
+91/108, train_loss: 0.2184
+101/108, train_loss: 0.1312
+[2022-06-19 02:41:03]epoch 147 average loss: 0.2460
+----------
+[2022-06-19 02:41:03] epoch 148/350
+1/108, train_loss: 0.1580
+11/108, train_loss: 0.1543
+21/108, train_loss: 0.1804
+31/108, train_loss: 0.1718
+41/108, train_loss: 0.2792
+51/108, train_loss: 0.2884
+61/108, train_loss: 0.3200
+71/108, train_loss: 0.1985
+81/108, train_loss: 0.2045
+91/108, train_loss: 0.1691
+101/108, train_loss: 0.1991
+[2022-06-19 02:46:24]epoch 148 average loss: 0.2443
+[2022-06-19 02:48:14] current epoch: 148 current mean dice: 0.5132
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 02:48:14] epoch 149/350
+1/108, train_loss: 0.0760
+11/108, train_loss: 0.3346
+21/108, train_loss: 0.2272
+31/108, train_loss: 0.0723
+41/108, train_loss: 0.1737
+51/108, train_loss: 0.3029
+61/108, train_loss: 0.1533
+71/108, train_loss: 0.2346
+81/108, train_loss: 0.3324
+91/108, train_loss: 0.1429
+101/108, train_loss: 0.3001
+[2022-06-19 02:53:31]epoch 149 average loss: 0.2476
+----------
+[2022-06-19 02:53:31] epoch 150/350
+1/108, train_loss: 0.2799
+11/108, train_loss: 0.3114
+21/108, train_loss: 0.4028
+31/108, train_loss: 0.2196
+41/108, train_loss: 0.1266
+51/108, train_loss: 0.3412
+61/108, train_loss: 0.3348
+71/108, train_loss: 0.3276
+81/108, train_loss: 0.3426
+91/108, train_loss: 0.2247
+101/108, train_loss: 0.3330
+[2022-06-19 02:58:50]epoch 150 average loss: 0.2655
+[2022-06-19 03:00:31] current epoch: 150 current mean dice: 0.4086
+best mean dice: 0.6366 at epoch: 106
+----------
+[2022-06-19 03:00:31] epoch 151/350
+1/108, train_loss: 0.2381
+11/108, train_loss: 0.2827
+21/108, train_loss: 0.2300
+31/108, train_loss: 0.3271
+41/108, train_loss: 0.3477
+51/108, train_loss: 0.2013
+61/108, train_loss: 0.2088
+71/108, train_loss: 0.1372
+81/108, train_loss: 0.2112
+91/108, train_loss: 0.2958
+101/108, train_loss: 0.1945
+[2022-06-19 03:05:58]epoch 151 average loss: 0.2579
+----------
+[2022-06-19 03:05:58] epoch 152/350
+1/108, train_loss: 0.2184
+11/108, train_loss: 0.1894
+21/108, train_loss: 0.3106
+31/108, train_loss: 0.4096
+41/108, train_loss: 0.1163
+51/108, train_loss: 0.2219
+61/108, train_loss: 0.3969
+71/108, train_loss: 0.2089
+81/108, train_loss: 0.1070
+91/108, train_loss: 0.2345
+101/108, train_loss: 0.1057
+[2022-06-19 03:11:29]epoch 152 average loss: 0.2320
+[2022-06-19 03:13:14] New best metric model was saved 
+[2022-06-19 03:13:14] current epoch: 152 current mean dice: 0.6371
+best mean dice: 0.6371 at epoch: 152
+----------
+[2022-06-19 03:13:14] epoch 153/350
+1/108, train_loss: 0.4419
+11/108, train_loss: 0.3612
+21/108, train_loss: 0.2359
+31/108, train_loss: 0.3121
+41/108, train_loss: 0.1743
+51/108, train_loss: 0.2702
+61/108, train_loss: 0.4434
+71/108, train_loss: 0.2585
+81/108, train_loss: 0.2107
+91/108, train_loss: 0.3196
+101/108, train_loss: 0.3399
+[2022-06-19 03:18:37]epoch 153 average loss: 0.2921
+----------
+[2022-06-19 03:18:37] epoch 154/350
+1/108, train_loss: 0.2998
+11/108, train_loss: 0.2184
+21/108, train_loss: 0.3351
+31/108, train_loss: 0.2387
+41/108, train_loss: 0.1518
+51/108, train_loss: 0.1977
+61/108, train_loss: 0.2095
+71/108, train_loss: 0.1444
+81/108, train_loss: 0.2375
+91/108, train_loss: 0.1088
+101/108, train_loss: 0.1497
+[2022-06-19 03:24:00]epoch 154 average loss: 0.2523
+[2022-06-19 03:25:43] New best metric model was saved 
+[2022-06-19 03:25:43] current epoch: 154 current mean dice: 0.6384
+best mean dice: 0.6384 at epoch: 154
+----------
+[2022-06-19 03:25:43] epoch 155/350
+1/108, train_loss: 0.1707
+11/108, train_loss: 0.2987
+21/108, train_loss: 0.1418
+31/108, train_loss: 0.2963
+41/108, train_loss: 0.1889
+51/108, train_loss: 0.2224
+61/108, train_loss: 0.3686
+71/108, train_loss: 0.2886
+81/108, train_loss: 0.1111
+91/108, train_loss: 0.2829
+101/108, train_loss: 0.2571
+[2022-06-19 03:31:04]epoch 155 average loss: 0.2389
+----------
+[2022-06-19 03:31:04] epoch 156/350
+1/108, train_loss: 0.2155
+11/108, train_loss: 0.3271
+21/108, train_loss: 0.0847
+31/108, train_loss: 0.2411
+41/108, train_loss: 0.1570
+51/108, train_loss: 0.2146
+61/108, train_loss: 0.2919
+71/108, train_loss: 0.1046
+81/108, train_loss: 0.3967
+91/108, train_loss: 0.2373
+101/108, train_loss: 0.3812
+[2022-06-19 03:36:23]epoch 156 average loss: 0.2551
+[2022-06-19 03:38:07] New best metric model was saved 
+[2022-06-19 03:38:07] current epoch: 156 current mean dice: 0.6693
+best mean dice: 0.6693 at epoch: 156
+----------
+[2022-06-19 03:38:08] epoch 157/350
+1/108, train_loss: 0.1748
+11/108, train_loss: 0.3140
+21/108, train_loss: 0.2403
+31/108, train_loss: 0.2128
+41/108, train_loss: 0.2157
+51/108, train_loss: 0.2467
+61/108, train_loss: 0.2641
+71/108, train_loss: 0.3051
+81/108, train_loss: 0.1169
+91/108, train_loss: 0.2708
+101/108, train_loss: 0.2870
+[2022-06-19 03:43:28]epoch 157 average loss: 0.2506
+----------
+[2022-06-19 03:43:28] epoch 158/350
+1/108, train_loss: 0.1606
+11/108, train_loss: 0.1586
+21/108, train_loss: 0.1405
+31/108, train_loss: 0.1247
+41/108, train_loss: 0.2969
+51/108, train_loss: 0.1625
+61/108, train_loss: 0.2083
+71/108, train_loss: 0.1731
+81/108, train_loss: 0.2692
+91/108, train_loss: 0.2199
+101/108, train_loss: 0.3402
+[2022-06-19 03:48:52]epoch 158 average loss: 0.2472
+[2022-06-19 03:50:37] New best metric model was saved 
+[2022-06-19 03:50:37] current epoch: 158 current mean dice: 0.6845
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 03:50:37] epoch 159/350
+1/108, train_loss: 0.2772
+11/108, train_loss: 0.1589
+21/108, train_loss: 0.1491
+31/108, train_loss: 0.1597
+41/108, train_loss: 0.2746
+51/108, train_loss: 0.1155
+61/108, train_loss: 0.3347
+71/108, train_loss: 0.3535
+81/108, train_loss: 0.2168
+91/108, train_loss: 0.2789
+101/108, train_loss: 0.1617
+[2022-06-19 03:55:59]epoch 159 average loss: 0.2396
+----------
+[2022-06-19 03:55:59] epoch 160/350
+1/108, train_loss: 0.2493
+11/108, train_loss: 0.1872
+21/108, train_loss: 0.2651
+31/108, train_loss: 0.0351
+41/108, train_loss: 0.3931
+51/108, train_loss: 0.1529
+61/108, train_loss: 0.0996
+71/108, train_loss: 0.1787
+81/108, train_loss: 0.2575
+91/108, train_loss: 0.1388
+101/108, train_loss: 0.1771
+[2022-06-19 04:01:19]epoch 160 average loss: 0.2415
+[2022-06-19 04:03:09] current epoch: 160 current mean dice: 0.6279
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 04:03:09] epoch 161/350
+1/108, train_loss: 0.3041
+11/108, train_loss: 0.2761
+21/108, train_loss: 0.3253
+31/108, train_loss: 0.2644
+41/108, train_loss: 0.2113
+51/108, train_loss: 0.2719
+61/108, train_loss: 0.1063
+71/108, train_loss: 0.2716
+81/108, train_loss: 0.2272
+91/108, train_loss: 0.3259
+101/108, train_loss: 0.3404
+[2022-06-19 04:08:29]epoch 161 average loss: 0.2478
+----------
+[2022-06-19 04:08:29] epoch 162/350
+1/108, train_loss: 0.3044
+11/108, train_loss: 0.2388
+21/108, train_loss: 0.2208
+31/108, train_loss: 0.2392
+41/108, train_loss: 0.2684
+51/108, train_loss: 0.2170
+61/108, train_loss: 0.2846
+71/108, train_loss: 0.2511
+81/108, train_loss: 0.1352
+91/108, train_loss: 0.2930
+101/108, train_loss: 0.3322
+[2022-06-19 04:13:42]epoch 162 average loss: 0.2385
+[2022-06-19 04:15:30] current epoch: 162 current mean dice: 0.6036
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 04:15:31] epoch 163/350
+1/108, train_loss: 0.1111
+11/108, train_loss: 0.2531
+21/108, train_loss: 0.1007
+31/108, train_loss: 0.2797
+41/108, train_loss: 0.2592
+51/108, train_loss: 0.3850
+61/108, train_loss: 0.3325
+71/108, train_loss: 0.2669
+81/108, train_loss: 0.1941
+91/108, train_loss: 0.2546
+101/108, train_loss: 0.2812
+[2022-06-19 04:20:49]epoch 163 average loss: 0.2354
+----------
+[2022-06-19 04:20:49] epoch 164/350
+1/108, train_loss: 0.3712
+11/108, train_loss: 0.2134
+21/108, train_loss: 0.3884
+31/108, train_loss: 0.3226
+41/108, train_loss: 0.0615
+51/108, train_loss: 0.2713
+61/108, train_loss: 0.2427
+71/108, train_loss: 0.1724
+81/108, train_loss: 0.2738
+91/108, train_loss: 0.2658
+101/108, train_loss: 0.3684
+[2022-06-19 04:26:10]epoch 164 average loss: 0.2584
+[2022-06-19 04:27:56] current epoch: 164 current mean dice: 0.5914
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 04:27:57] epoch 165/350
+1/108, train_loss: 0.1592
+11/108, train_loss: 0.2382
+21/108, train_loss: 0.3911
+31/108, train_loss: 0.3650
+41/108, train_loss: 0.2190
+51/108, train_loss: 0.3380
+61/108, train_loss: 0.2950
+71/108, train_loss: 0.1667
+81/108, train_loss: 0.2281
+91/108, train_loss: 0.2509
+101/108, train_loss: 0.2510
+[2022-06-19 04:33:21]epoch 165 average loss: 0.2502
+----------
+[2022-06-19 04:33:21] epoch 166/350
+1/108, train_loss: 0.1924
+11/108, train_loss: 0.2256
+21/108, train_loss: 0.1193
+31/108, train_loss: 0.2191
+41/108, train_loss: 0.1697
+51/108, train_loss: 0.3447
+61/108, train_loss: 0.1881
+71/108, train_loss: 0.1571
+81/108, train_loss: 0.2919
+91/108, train_loss: 0.1539
+101/108, train_loss: 0.1570
+[2022-06-19 04:38:46]epoch 166 average loss: 0.2349
+[2022-06-19 04:40:25] current epoch: 166 current mean dice: 0.5890
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 04:40:25] epoch 167/350
+1/108, train_loss: 0.1862
+11/108, train_loss: 0.3643
+21/108, train_loss: 0.2529
+31/108, train_loss: 0.3256
+41/108, train_loss: 0.1945
+51/108, train_loss: 0.3870
+61/108, train_loss: 0.2523
+71/108, train_loss: 0.2761
+81/108, train_loss: 0.3863
+91/108, train_loss: 0.1902
+101/108, train_loss: 0.1708
+[2022-06-19 04:45:49]epoch 167 average loss: 0.2530
+----------
+[2022-06-19 04:45:49] epoch 168/350
+1/108, train_loss: 0.1824
+11/108, train_loss: 0.2921
+21/108, train_loss: 0.2458
+31/108, train_loss: 0.3040
+41/108, train_loss: 0.2344
+51/108, train_loss: 0.1757
+61/108, train_loss: 0.2194
+71/108, train_loss: 0.4389
+81/108, train_loss: 0.3495
+91/108, train_loss: 0.3359
+101/108, train_loss: 0.3881
+[2022-06-19 04:51:11]epoch 168 average loss: 0.2826
+[2022-06-19 04:52:56] current epoch: 168 current mean dice: 0.5364
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 04:52:56] epoch 169/350
+1/108, train_loss: 0.3524
+11/108, train_loss: 0.4755
+21/108, train_loss: 0.3269
+31/108, train_loss: 0.2538
+41/108, train_loss: 0.2753
+51/108, train_loss: 0.1956
+61/108, train_loss: 0.2378
+71/108, train_loss: 0.1001
+81/108, train_loss: 0.2785
+91/108, train_loss: 0.3080
+101/108, train_loss: 0.3667
+[2022-06-19 04:58:22]epoch 169 average loss: 0.2680
+----------
+[2022-06-19 04:58:22] epoch 170/350
+1/108, train_loss: 0.3420
+11/108, train_loss: 0.2190
+21/108, train_loss: 0.2649
+31/108, train_loss: 0.2098
+41/108, train_loss: 0.2359
+51/108, train_loss: 0.1563
+61/108, train_loss: 0.3901
+71/108, train_loss: 0.3318
+81/108, train_loss: 0.2827
+91/108, train_loss: 0.3217
+101/108, train_loss: 0.2677
+[2022-06-19 05:03:43]epoch 170 average loss: 0.2521
+[2022-06-19 05:05:26] current epoch: 170 current mean dice: 0.4299
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 05:05:26] epoch 171/350
+1/108, train_loss: 0.1874
+11/108, train_loss: 0.3501
+21/108, train_loss: 0.3337
+31/108, train_loss: 0.2460
+41/108, train_loss: 0.3915
+51/108, train_loss: 0.2454
+61/108, train_loss: 0.2067
+71/108, train_loss: 0.2674
+81/108, train_loss: 0.1937
+91/108, train_loss: 0.1701
+101/108, train_loss: 0.1501
+[2022-06-19 05:10:55]epoch 171 average loss: 0.2446
+----------
+[2022-06-19 05:10:55] epoch 172/350
+1/108, train_loss: 0.0920
+11/108, train_loss: 0.1261
+21/108, train_loss: 0.4506
+31/108, train_loss: 0.3948
+41/108, train_loss: 0.1035
+51/108, train_loss: 0.2448
+61/108, train_loss: 0.2803
+71/108, train_loss: 0.3315
+81/108, train_loss: 0.2106
+91/108, train_loss: 0.3131
+101/108, train_loss: 0.2254
+[2022-06-19 05:16:16]epoch 172 average loss: 0.2502
+[2022-06-19 05:17:56] current epoch: 172 current mean dice: 0.4237
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 05:17:56] epoch 173/350
+1/108, train_loss: 0.1755
+11/108, train_loss: 0.2300
+21/108, train_loss: 0.3305
+31/108, train_loss: 0.3047
+41/108, train_loss: 0.3700
+51/108, train_loss: 0.2811
+61/108, train_loss: 0.1285
+71/108, train_loss: 0.3275
+81/108, train_loss: 0.4271
+91/108, train_loss: 0.2273
+101/108, train_loss: 0.3039
+[2022-06-19 05:23:12]epoch 173 average loss: 0.2418
+----------
+[2022-06-19 05:23:12] epoch 174/350
+1/108, train_loss: 0.1171
+11/108, train_loss: 0.1822
+21/108, train_loss: 0.1787
+31/108, train_loss: 0.3164
+41/108, train_loss: 0.2440
+51/108, train_loss: 0.2807
+61/108, train_loss: 0.1501
+71/108, train_loss: 0.2642
+81/108, train_loss: 0.3530
+91/108, train_loss: 0.2745
+101/108, train_loss: 0.1574
+[2022-06-19 05:28:37]epoch 174 average loss: 0.2473
+[2022-06-19 05:30:20] current epoch: 174 current mean dice: 0.4999
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 05:30:20] epoch 175/350
+1/108, train_loss: 0.3424
+11/108, train_loss: 0.1735
+21/108, train_loss: 0.3950
+31/108, train_loss: 0.3052
+41/108, train_loss: 0.1916
+51/108, train_loss: 0.2424
+61/108, train_loss: 0.2219
+71/108, train_loss: 0.4200
+81/108, train_loss: 0.1144
+91/108, train_loss: 0.2666
+101/108, train_loss: 0.2198
+[2022-06-19 05:35:42]epoch 175 average loss: 0.2403
+----------
+[2022-06-19 05:35:42] epoch 176/350
+1/108, train_loss: 0.2126
+11/108, train_loss: 0.1273
+21/108, train_loss: 0.3795
+31/108, train_loss: 0.2861
+41/108, train_loss: 0.1387
+51/108, train_loss: 0.3276
+61/108, train_loss: 0.2188
+71/108, train_loss: 0.2098
+81/108, train_loss: 0.2037
+91/108, train_loss: 0.2339
+101/108, train_loss: 0.3664
+[2022-06-19 05:40:53]epoch 176 average loss: 0.2521
+[2022-06-19 05:42:32] current epoch: 176 current mean dice: 0.5633
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 05:42:33] epoch 177/350
+1/108, train_loss: 0.2096
+11/108, train_loss: 0.2144
+21/108, train_loss: 0.4797
+31/108, train_loss: 0.1332
+41/108, train_loss: 0.2267
+51/108, train_loss: 0.1592
+61/108, train_loss: 0.2298
+71/108, train_loss: 0.3576
+81/108, train_loss: 0.3304
+91/108, train_loss: 0.2844
+101/108, train_loss: 0.2129
+[2022-06-19 05:47:58]epoch 177 average loss: 0.2565
+----------
+[2022-06-19 05:47:58] epoch 178/350
+1/108, train_loss: 0.2246
+11/108, train_loss: 0.3402
+21/108, train_loss: 0.2483
+31/108, train_loss: 0.2356
+41/108, train_loss: 0.0871
+51/108, train_loss: 0.2350
+61/108, train_loss: 0.1202
+71/108, train_loss: 0.2595
+81/108, train_loss: 0.2221
+91/108, train_loss: 0.3361
+101/108, train_loss: 0.2291
+[2022-06-19 05:53:18]epoch 178 average loss: 0.2342
+[2022-06-19 05:55:01] current epoch: 178 current mean dice: 0.5989
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 05:55:01] epoch 179/350
+1/108, train_loss: 0.1807
+11/108, train_loss: 0.2293
+21/108, train_loss: 0.1241
+31/108, train_loss: 0.0877
+41/108, train_loss: 0.1135
+51/108, train_loss: 0.2265
+61/108, train_loss: 0.1677
+71/108, train_loss: 0.2147
+81/108, train_loss: 0.3545
+91/108, train_loss: 0.2832
+101/108, train_loss: 0.2292
+[2022-06-19 06:00:27]epoch 179 average loss: 0.2483
+----------
+[2022-06-19 06:00:27] epoch 180/350
+1/108, train_loss: 0.2773
+11/108, train_loss: 0.2767
+21/108, train_loss: 0.2195
+31/108, train_loss: 0.2093
+41/108, train_loss: 0.1521
+51/108, train_loss: 0.4740
+61/108, train_loss: 0.2385
+71/108, train_loss: 0.1064
+81/108, train_loss: 0.2943
+91/108, train_loss: 0.3246
+101/108, train_loss: 0.1738
+[2022-06-19 06:05:52]epoch 180 average loss: 0.2382
+[2022-06-19 06:07:30] current epoch: 180 current mean dice: 0.6196
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 06:07:30] epoch 181/350
+1/108, train_loss: 0.1822
+11/108, train_loss: 0.3706
+21/108, train_loss: 0.1398
+31/108, train_loss: 0.3581
+41/108, train_loss: 0.1647
+51/108, train_loss: 0.2766
+61/108, train_loss: 0.2744
+71/108, train_loss: 0.3508
+81/108, train_loss: 0.3872
+91/108, train_loss: 0.3097
+101/108, train_loss: 0.2098
+[2022-06-19 06:12:52]epoch 181 average loss: 0.2584
+----------
+[2022-06-19 06:12:52] epoch 182/350
+1/108, train_loss: 0.2333
+11/108, train_loss: 0.2380
+21/108, train_loss: 0.2235
+31/108, train_loss: 0.1964
+41/108, train_loss: 0.2160
+51/108, train_loss: 0.1477
+61/108, train_loss: 0.2688
+71/108, train_loss: 0.2982
+81/108, train_loss: 0.1666
+91/108, train_loss: 0.2246
+101/108, train_loss: 0.1243
+[2022-06-19 06:18:13]epoch 182 average loss: 0.2423
+[2022-06-19 06:20:00] current epoch: 182 current mean dice: 0.5607
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 06:20:00] epoch 183/350
+1/108, train_loss: 0.3373
+11/108, train_loss: 0.3129
+21/108, train_loss: 0.2326
+31/108, train_loss: 0.2285
+41/108, train_loss: 0.1423
+51/108, train_loss: 0.2798
+61/108, train_loss: 0.2688
+71/108, train_loss: 0.2980
+81/108, train_loss: 0.2281
+91/108, train_loss: 0.2747
+101/108, train_loss: 0.0725
+[2022-06-19 06:25:27]epoch 183 average loss: 0.2306
+----------
+[2022-06-19 06:25:27] epoch 184/350
+1/108, train_loss: 0.2148
+11/108, train_loss: 0.3428
+21/108, train_loss: 0.2305
+31/108, train_loss: 0.2716
+41/108, train_loss: 0.2683
+51/108, train_loss: 0.2116
+61/108, train_loss: 0.2521
+71/108, train_loss: 0.2083
+81/108, train_loss: 0.1773
+91/108, train_loss: 0.3899
+101/108, train_loss: 0.2749
+[2022-06-19 06:30:51]epoch 184 average loss: 0.2390
+[2022-06-19 06:32:39] current epoch: 184 current mean dice: 0.5354
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 06:32:39] epoch 185/350
+1/108, train_loss: 0.1153
+11/108, train_loss: 0.4371
+21/108, train_loss: 0.2856
+31/108, train_loss: 0.2603
+41/108, train_loss: 0.2320
+51/108, train_loss: 0.3280
+61/108, train_loss: 0.1684
+71/108, train_loss: 0.1372
+81/108, train_loss: 0.2473
+91/108, train_loss: 0.4181
+101/108, train_loss: 0.3907
+[2022-06-19 06:38:00]epoch 185 average loss: 0.2570
+----------
+[2022-06-19 06:38:00] epoch 186/350
+1/108, train_loss: 0.2855
+11/108, train_loss: 0.3257
+21/108, train_loss: 0.1995
+31/108, train_loss: 0.2527
+41/108, train_loss: 0.1957
+51/108, train_loss: 0.1834
+61/108, train_loss: 0.2909
+71/108, train_loss: 0.1919
+81/108, train_loss: 0.2809
+91/108, train_loss: 0.3319
+101/108, train_loss: 0.3870
+[2022-06-19 06:43:25]epoch 186 average loss: 0.2421
+[2022-06-19 06:45:13] current epoch: 186 current mean dice: 0.4781
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 06:45:13] epoch 187/350
+1/108, train_loss: 0.2773
+11/108, train_loss: 0.2942
+21/108, train_loss: 0.1866
+31/108, train_loss: 0.3655
+41/108, train_loss: 0.2693
+51/108, train_loss: 0.0991
+61/108, train_loss: 0.2867
+71/108, train_loss: 0.1069
+81/108, train_loss: 0.3262
+91/108, train_loss: 0.1111
+101/108, train_loss: 0.3378
+[2022-06-19 06:50:34]epoch 187 average loss: 0.2424
+----------
+[2022-06-19 06:50:34] epoch 188/350
+1/108, train_loss: 0.2577
+11/108, train_loss: 0.1186
+21/108, train_loss: 0.2742
+31/108, train_loss: 0.2104
+41/108, train_loss: 0.3541
+51/108, train_loss: 0.0543
+61/108, train_loss: 0.2965
+71/108, train_loss: 0.4780
+81/108, train_loss: 0.2889
+91/108, train_loss: 0.1684
+101/108, train_loss: 0.1608
+[2022-06-19 06:56:05]epoch 188 average loss: 0.2365
+[2022-06-19 06:57:51] current epoch: 188 current mean dice: 0.6549
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 06:57:51] epoch 189/350
+1/108, train_loss: 0.3329
+11/108, train_loss: 0.2969
+21/108, train_loss: 0.3279
+31/108, train_loss: 0.3044
+41/108, train_loss: 0.2701
+51/108, train_loss: 0.1216
+61/108, train_loss: 0.3383
+71/108, train_loss: 0.2701
+81/108, train_loss: 0.2280
+91/108, train_loss: 0.3247
+101/108, train_loss: 0.2818
+[2022-06-19 07:03:17]epoch 189 average loss: 0.2380
+----------
+[2022-06-19 07:03:17] epoch 190/350
+1/108, train_loss: 0.2257
+11/108, train_loss: 0.1793
+21/108, train_loss: 0.2184
+31/108, train_loss: 0.3000
+41/108, train_loss: 0.4266
+51/108, train_loss: 0.1147
+61/108, train_loss: 0.1806
+71/108, train_loss: 0.2750
+81/108, train_loss: 0.2822
+91/108, train_loss: 0.2757
+101/108, train_loss: 0.1183
+[2022-06-19 07:08:46]epoch 190 average loss: 0.2473
+[2022-06-19 07:10:34] current epoch: 190 current mean dice: 0.5383
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 07:10:34] epoch 191/350
+1/108, train_loss: 0.2272
+11/108, train_loss: 0.3687
+21/108, train_loss: 0.1591
+31/108, train_loss: 0.2078
+41/108, train_loss: 0.3694
+51/108, train_loss: 0.3085
+61/108, train_loss: 0.4426
+71/108, train_loss: 0.0566
+81/108, train_loss: 0.2499
+91/108, train_loss: 0.3419
+101/108, train_loss: 0.1782
+[2022-06-19 07:16:02]epoch 191 average loss: 0.2454
+----------
+[2022-06-19 07:16:02] epoch 192/350
+1/108, train_loss: 0.2248
+11/108, train_loss: 0.3544
+21/108, train_loss: 0.2716
+31/108, train_loss: 0.1428
+41/108, train_loss: 0.1136
+51/108, train_loss: 0.2276
+61/108, train_loss: 0.2233
+71/108, train_loss: 0.3670
+81/108, train_loss: 0.0655
+91/108, train_loss: 0.3962
+101/108, train_loss: 0.1168
+[2022-06-19 07:21:28]epoch 192 average loss: 0.2390
+[2022-06-19 07:23:17] current epoch: 192 current mean dice: 0.4628
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 07:23:17] epoch 193/350
+1/108, train_loss: 0.2696
+11/108, train_loss: 0.3314
+21/108, train_loss: 0.3311
+31/108, train_loss: 0.3282
+41/108, train_loss: 0.0913
+51/108, train_loss: 0.2302
+61/108, train_loss: 0.3546
+71/108, train_loss: 0.2309
+81/108, train_loss: 0.3529
+91/108, train_loss: 0.0953
+101/108, train_loss: 0.2456
+[2022-06-19 07:28:33]epoch 193 average loss: 0.2409
+----------
+[2022-06-19 07:28:33] epoch 194/350
+1/108, train_loss: 0.0538
+11/108, train_loss: 0.0909
+21/108, train_loss: 0.2579
+31/108, train_loss: 0.3862
+41/108, train_loss: 0.3462
+51/108, train_loss: 0.2220
+61/108, train_loss: 0.0411
+71/108, train_loss: 0.3327
+81/108, train_loss: 0.2478
+91/108, train_loss: 0.3876
+101/108, train_loss: 0.4491
+[2022-06-19 07:33:57]epoch 194 average loss: 0.2419
+[2022-06-19 07:35:50] current epoch: 194 current mean dice: 0.5609
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 07:35:50] epoch 195/350
+1/108, train_loss: 0.2778
+11/108, train_loss: 0.3491
+21/108, train_loss: 0.3626
+31/108, train_loss: 0.1929
+41/108, train_loss: 0.4528
+51/108, train_loss: 0.2641
+61/108, train_loss: 0.0435
+71/108, train_loss: 0.3725
+81/108, train_loss: 0.3172
+91/108, train_loss: 0.1825
+101/108, train_loss: 0.2890
+[2022-06-19 07:41:12]epoch 195 average loss: 0.2511
+----------
+[2022-06-19 07:41:12] epoch 196/350
+1/108, train_loss: 0.1860
+11/108, train_loss: 0.1455
+21/108, train_loss: 0.3449
+31/108, train_loss: 0.1577
+41/108, train_loss: 0.2378
+51/108, train_loss: 0.1838
+61/108, train_loss: 0.3053
+71/108, train_loss: 0.2306
+81/108, train_loss: 0.4435
+91/108, train_loss: 0.2225
+101/108, train_loss: 0.3516
+[2022-06-19 07:46:38]epoch 196 average loss: 0.2548
+[2022-06-19 07:48:29] current epoch: 196 current mean dice: 0.5971
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 07:48:29] epoch 197/350
+1/108, train_loss: 0.2738
+11/108, train_loss: 0.1278
+21/108, train_loss: 0.2348
+31/108, train_loss: 0.1744
+41/108, train_loss: 0.1574
+51/108, train_loss: 0.2823
+61/108, train_loss: 0.2701
+71/108, train_loss: 0.1785
+81/108, train_loss: 0.2825
+91/108, train_loss: 0.4443
+101/108, train_loss: 0.3678
+[2022-06-19 07:53:55]epoch 197 average loss: 0.2492
+----------
+[2022-06-19 07:53:55] epoch 198/350
+1/108, train_loss: 0.3410
+11/108, train_loss: 0.2042
+21/108, train_loss: 0.3315
+31/108, train_loss: 0.1506
+41/108, train_loss: 0.1686
+51/108, train_loss: 0.1995
+61/108, train_loss: 0.3570
+71/108, train_loss: 0.3366
+81/108, train_loss: 0.3482
+91/108, train_loss: 0.2151
+101/108, train_loss: 0.1639
+[2022-06-19 07:59:18]epoch 198 average loss: 0.2478
+[2022-06-19 08:01:11] current epoch: 198 current mean dice: 0.5041
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 08:01:12] epoch 199/350
+1/108, train_loss: 0.2689
+11/108, train_loss: 0.2735
+21/108, train_loss: 0.0494
+31/108, train_loss: 0.3965
+41/108, train_loss: 0.2872
+51/108, train_loss: 0.1758
+61/108, train_loss: 0.3774
+71/108, train_loss: 0.2479
+81/108, train_loss: 0.1462
+91/108, train_loss: 0.2474
+101/108, train_loss: 0.1283
+[2022-06-19 08:06:36]epoch 199 average loss: 0.2466
+----------
+[2022-06-19 08:06:36] epoch 200/350
+1/108, train_loss: 0.2339
+11/108, train_loss: 0.2217
+21/108, train_loss: 0.2718
+31/108, train_loss: 0.2847
+41/108, train_loss: 0.0491
+51/108, train_loss: 0.3383
+61/108, train_loss: 0.2295
+71/108, train_loss: 0.2028
+81/108, train_loss: 0.1740
+91/108, train_loss: 0.2047
+101/108, train_loss: 0.1833
+[2022-06-19 08:12:00]epoch 200 average loss: 0.2410
+[2022-06-19 08:13:46] current epoch: 200 current mean dice: 0.4669
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 08:13:46] epoch 201/350
+1/108, train_loss: 0.2394
+11/108, train_loss: 0.2176
+21/108, train_loss: 0.1471
+31/108, train_loss: 0.1914
+41/108, train_loss: 0.2874
+51/108, train_loss: 0.3431
+61/108, train_loss: 0.2249
+71/108, train_loss: 0.4160
+81/108, train_loss: 0.3069
+91/108, train_loss: 0.3070
+101/108, train_loss: 0.1506
+[2022-06-19 08:19:12]epoch 201 average loss: 0.2525
+----------
+[2022-06-19 08:19:12] epoch 202/350
+1/108, train_loss: 0.3168
+11/108, train_loss: 0.1522
+21/108, train_loss: 0.3241
+31/108, train_loss: 0.2297
+41/108, train_loss: 0.1724
+51/108, train_loss: 0.3329
+61/108, train_loss: 0.1578
+71/108, train_loss: 0.1621
+81/108, train_loss: 0.2115
+91/108, train_loss: 0.4469
+101/108, train_loss: 0.2206
+[2022-06-19 08:24:39]epoch 202 average loss: 0.2516
+[2022-06-19 08:26:34] current epoch: 202 current mean dice: 0.3936
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 08:26:34] epoch 203/350
+1/108, train_loss: 0.2773
+11/108, train_loss: 0.1546
+21/108, train_loss: 0.2426
+31/108, train_loss: 0.2307
+41/108, train_loss: 0.3331
+51/108, train_loss: 0.4508
+61/108, train_loss: 0.2952
+71/108, train_loss: 0.2391
+81/108, train_loss: 0.1682
+91/108, train_loss: 0.2914
+101/108, train_loss: 0.2740
+[2022-06-19 08:32:09]epoch 203 average loss: 0.2417
+----------
+[2022-06-19 08:32:09] epoch 204/350
+1/108, train_loss: 0.3900
+11/108, train_loss: 0.1129
+21/108, train_loss: 0.1479
+31/108, train_loss: 0.2698
+41/108, train_loss: 0.3343
+51/108, train_loss: 0.3618
+61/108, train_loss: 0.2076
+71/108, train_loss: 0.1808
+81/108, train_loss: 0.2061
+91/108, train_loss: 0.3223
+101/108, train_loss: 0.2471
+[2022-06-19 08:37:35]epoch 204 average loss: 0.2425
+[2022-06-19 08:39:22] current epoch: 204 current mean dice: 0.5792
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 08:39:22] epoch 205/350
+1/108, train_loss: 0.2111
+11/108, train_loss: 0.2737
+21/108, train_loss: 0.2838
+31/108, train_loss: 0.2929
+41/108, train_loss: 0.3854
+51/108, train_loss: 0.3342
+61/108, train_loss: 0.3868
+71/108, train_loss: 0.3394
+81/108, train_loss: 0.5004
+91/108, train_loss: 0.1714
+101/108, train_loss: 0.1672
+[2022-06-19 08:44:43]epoch 205 average loss: 0.2506
+----------
+[2022-06-19 08:44:43] epoch 206/350
+1/108, train_loss: 0.1258
+11/108, train_loss: 0.3024
+21/108, train_loss: 0.0757
+31/108, train_loss: 0.3263
+41/108, train_loss: 0.1852
+51/108, train_loss: 0.3946
+61/108, train_loss: 0.2591
+71/108, train_loss: 0.1620
+81/108, train_loss: 0.1956
+91/108, train_loss: 0.2109
+101/108, train_loss: 0.1923
+[2022-06-19 08:50:13]epoch 206 average loss: 0.2322
+[2022-06-19 08:52:02] current epoch: 206 current mean dice: 0.4649
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 08:52:02] epoch 207/350
+1/108, train_loss: 0.1156
+11/108, train_loss: 0.1020
+21/108, train_loss: 0.1682
+31/108, train_loss: 0.1564
+41/108, train_loss: 0.1509
+51/108, train_loss: 0.1440
+61/108, train_loss: 0.1470
+71/108, train_loss: 0.4685
+81/108, train_loss: 0.3613
+91/108, train_loss: 0.3909
+101/108, train_loss: 0.3495
+[2022-06-19 08:57:25]epoch 207 average loss: 0.2409
+----------
+[2022-06-19 08:57:25] epoch 208/350
+1/108, train_loss: 0.1996
+11/108, train_loss: 0.2744
+21/108, train_loss: 0.2836
+31/108, train_loss: 0.0734
+41/108, train_loss: 0.0897
+51/108, train_loss: 0.1907
+61/108, train_loss: 0.2182
+71/108, train_loss: 0.2388
+81/108, train_loss: 0.2387
+91/108, train_loss: 0.2185
+101/108, train_loss: 0.1886
+[2022-06-19 09:02:50]epoch 208 average loss: 0.2323
+[2022-06-19 09:04:39] current epoch: 208 current mean dice: 0.5258
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 09:04:39] epoch 209/350
+1/108, train_loss: 0.2043
+11/108, train_loss: 0.3032
+21/108, train_loss: 0.2335
+31/108, train_loss: 0.3559
+41/108, train_loss: 0.3166
+51/108, train_loss: 0.3908
+61/108, train_loss: 0.1703
+71/108, train_loss: 0.4448
+81/108, train_loss: 0.2716
+91/108, train_loss: 0.2163
+101/108, train_loss: 0.1479
+[2022-06-19 09:10:01]epoch 209 average loss: 0.2260
+----------
+[2022-06-19 09:10:01] epoch 210/350
+1/108, train_loss: 0.2297
+11/108, train_loss: 0.3234
+21/108, train_loss: 0.2834
+31/108, train_loss: 0.3915
+41/108, train_loss: 0.0803
+51/108, train_loss: 0.2122
+61/108, train_loss: 0.3969
+71/108, train_loss: 0.1877
+81/108, train_loss: 0.3380
+91/108, train_loss: 0.3405
+101/108, train_loss: 0.1600
+[2022-06-19 09:15:25]epoch 210 average loss: 0.2498
+[2022-06-19 09:17:09] current epoch: 210 current mean dice: 0.5850
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 09:17:09] epoch 211/350
+1/108, train_loss: 0.2246
+11/108, train_loss: 0.2258
+21/108, train_loss: 0.1482
+31/108, train_loss: 0.2283
+41/108, train_loss: 0.3749
+51/108, train_loss: 0.1850
+61/108, train_loss: 0.2329
+71/108, train_loss: 0.3688
+81/108, train_loss: 0.2116
+91/108, train_loss: 0.1678
+101/108, train_loss: 0.3952
+[2022-06-19 09:22:30]epoch 211 average loss: 0.2296
+----------
+[2022-06-19 09:22:30] epoch 212/350
+1/108, train_loss: 0.2382
+11/108, train_loss: 0.3951
+21/108, train_loss: 0.2158
+31/108, train_loss: 0.1962
+41/108, train_loss: 0.3772
+51/108, train_loss: 0.2486
+61/108, train_loss: 0.2245
+71/108, train_loss: 0.1037
+81/108, train_loss: 0.2585
+91/108, train_loss: 0.2916
+101/108, train_loss: 0.2197
+[2022-06-19 09:27:57]epoch 212 average loss: 0.2431
+[2022-06-19 09:29:49] current epoch: 212 current mean dice: 0.5656
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 09:29:49] epoch 213/350
+1/108, train_loss: 0.2882
+11/108, train_loss: 0.1304
+21/108, train_loss: 0.0812
+31/108, train_loss: 0.2084
+41/108, train_loss: 0.3815
+51/108, train_loss: 0.2150
+61/108, train_loss: 0.2945
+71/108, train_loss: 0.2965
+81/108, train_loss: 0.1034
+91/108, train_loss: 0.1796
+101/108, train_loss: 0.1302
+[2022-06-19 09:35:17]epoch 213 average loss: 0.2366
+----------
+[2022-06-19 09:35:17] epoch 214/350
+1/108, train_loss: 0.1563
+11/108, train_loss: 0.2117
+21/108, train_loss: 0.2181
+31/108, train_loss: 0.2735
+41/108, train_loss: 0.2319
+51/108, train_loss: 0.2682
+61/108, train_loss: 0.1993
+71/108, train_loss: 0.4371
+81/108, train_loss: 0.2733
+91/108, train_loss: 0.3049
+101/108, train_loss: 0.1764
+[2022-06-19 09:40:50]epoch 214 average loss: 0.2408
+[2022-06-19 09:42:36] current epoch: 214 current mean dice: 0.6116
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 09:42:36] epoch 215/350
+1/108, train_loss: 0.2420
+11/108, train_loss: 0.2160
+21/108, train_loss: 0.1597
+31/108, train_loss: 0.3111
+41/108, train_loss: 0.2283
+51/108, train_loss: 0.2773
+61/108, train_loss: 0.3370
+71/108, train_loss: 0.2953
+81/108, train_loss: 0.3171
+91/108, train_loss: 0.3871
+101/108, train_loss: 0.2061
+[2022-06-19 09:48:05]epoch 215 average loss: 0.2527
+----------
+[2022-06-19 09:48:05] epoch 216/350
+1/108, train_loss: 0.1642
+11/108, train_loss: 0.2342
+21/108, train_loss: 0.3527
+31/108, train_loss: 0.3456
+41/108, train_loss: 0.2698
+51/108, train_loss: 0.3953
+61/108, train_loss: 0.1708
+71/108, train_loss: 0.2280
+81/108, train_loss: 0.2138
+91/108, train_loss: 0.1942
+101/108, train_loss: 0.1223
+[2022-06-19 09:53:36]epoch 216 average loss: 0.2512
+[2022-06-19 09:55:27] current epoch: 216 current mean dice: 0.4485
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 09:55:27] epoch 217/350
+1/108, train_loss: 0.1201
+11/108, train_loss: 0.3279
+21/108, train_loss: 0.2261
+31/108, train_loss: 0.1960
+41/108, train_loss: 0.2918
+51/108, train_loss: 0.2696
+61/108, train_loss: 0.3121
+71/108, train_loss: 0.2844
+81/108, train_loss: 0.1411
+91/108, train_loss: 0.1687
+101/108, train_loss: 0.1642
+[2022-06-19 10:00:58]epoch 217 average loss: 0.2360
+----------
+[2022-06-19 10:00:58] epoch 218/350
+1/108, train_loss: 0.1733
+11/108, train_loss: 0.2771
+21/108, train_loss: 0.2893
+31/108, train_loss: 0.3893
+41/108, train_loss: 0.1587
+51/108, train_loss: 0.3321
+61/108, train_loss: 0.2308
+71/108, train_loss: 0.2677
+81/108, train_loss: 0.2567
+91/108, train_loss: 0.2371
+101/108, train_loss: 0.1868
+[2022-06-19 10:06:20]epoch 218 average loss: 0.2506
+[2022-06-19 10:08:10] current epoch: 218 current mean dice: 0.5473
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 10:08:10] epoch 219/350
+1/108, train_loss: 0.2159
+11/108, train_loss: 0.3547
+21/108, train_loss: 0.3165
+31/108, train_loss: 0.2777
+41/108, train_loss: 0.1522
+51/108, train_loss: 0.2416
+61/108, train_loss: 0.4162
+71/108, train_loss: 0.3527
+81/108, train_loss: 0.2684
+91/108, train_loss: 0.1767
+101/108, train_loss: 0.2700
+[2022-06-19 10:13:35]epoch 219 average loss: 0.2703
+----------
+[2022-06-19 10:13:35] epoch 220/350
+1/108, train_loss: 0.3832
+11/108, train_loss: 0.2359
+21/108, train_loss: 0.3348
+31/108, train_loss: 0.2811
+41/108, train_loss: 0.1549
+51/108, train_loss: 0.2708
+61/108, train_loss: 0.3879
+71/108, train_loss: 0.1299
+81/108, train_loss: 0.3141
+91/108, train_loss: 0.2104
+101/108, train_loss: 0.1212
+[2022-06-19 10:19:08]epoch 220 average loss: 0.2507
+[2022-06-19 10:20:56] current epoch: 220 current mean dice: 0.4627
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 10:20:56] epoch 221/350
+1/108, train_loss: 0.2522
+11/108, train_loss: 0.2672
+21/108, train_loss: 0.3949
+31/108, train_loss: 0.2129
+41/108, train_loss: 0.2767
+51/108, train_loss: 0.1770
+61/108, train_loss: 0.3169
+71/108, train_loss: 0.2975
+81/108, train_loss: 0.3297
+91/108, train_loss: 0.2811
+101/108, train_loss: 0.1612
+[2022-06-19 10:26:24]epoch 221 average loss: 0.2529
+----------
+[2022-06-19 10:26:24] epoch 222/350
+1/108, train_loss: 0.1883
+11/108, train_loss: 0.1876
+21/108, train_loss: 0.1922
+31/108, train_loss: 0.2212
+41/108, train_loss: 0.2394
+51/108, train_loss: 0.1652
+61/108, train_loss: 0.2293
+71/108, train_loss: 0.1954
+81/108, train_loss: 0.3420
+91/108, train_loss: 0.2142
+101/108, train_loss: 0.2652
+[2022-06-19 10:31:59]epoch 222 average loss: 0.2398
+[2022-06-19 10:33:49] current epoch: 222 current mean dice: 0.3639
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 10:33:49] epoch 223/350
+1/108, train_loss: 0.3421
+11/108, train_loss: 0.3437
+21/108, train_loss: 0.1819
+31/108, train_loss: 0.1812
+41/108, train_loss: 0.2371
+51/108, train_loss: 0.3930
+61/108, train_loss: 0.3278
+71/108, train_loss: 0.2236
+81/108, train_loss: 0.2526
+91/108, train_loss: 0.2743
+101/108, train_loss: 0.1870
+[2022-06-19 10:39:15]epoch 223 average loss: 0.2398
+----------
+[2022-06-19 10:39:15] epoch 224/350
+1/108, train_loss: 0.2310
+11/108, train_loss: 0.2385
+21/108, train_loss: 0.2241
+31/108, train_loss: 0.2705
+41/108, train_loss: 0.1837
+51/108, train_loss: 0.1258
+61/108, train_loss: 0.1767
+71/108, train_loss: 0.2231
+81/108, train_loss: 0.2500
+91/108, train_loss: 0.2753
+101/108, train_loss: 0.1945
+[2022-06-19 10:44:39]epoch 224 average loss: 0.2434
+[2022-06-19 10:46:26] current epoch: 224 current mean dice: 0.4790
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 10:46:26] epoch 225/350
+1/108, train_loss: 0.1696
+11/108, train_loss: 0.3000
+21/108, train_loss: 0.1809
+31/108, train_loss: 0.3211
+41/108, train_loss: 0.1738
+51/108, train_loss: 0.2203
+61/108, train_loss: 0.2000
+71/108, train_loss: 0.2307
+81/108, train_loss: 0.2629
+91/108, train_loss: 0.3116
+101/108, train_loss: 0.2226
+[2022-06-19 10:51:54]epoch 225 average loss: 0.2530
+----------
+[2022-06-19 10:51:54] epoch 226/350
+1/108, train_loss: 0.2376
+11/108, train_loss: 0.3437
+21/108, train_loss: 0.2695
+31/108, train_loss: 0.1859
+41/108, train_loss: 0.2388
+51/108, train_loss: 0.2348
+61/108, train_loss: 0.1036
+71/108, train_loss: 0.2522
+81/108, train_loss: 0.2984
+91/108, train_loss: 0.0977
+101/108, train_loss: 0.1896
+[2022-06-19 10:57:24]epoch 226 average loss: 0.2494
+[2022-06-19 10:59:19] current epoch: 226 current mean dice: 0.4264
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 10:59:19] epoch 227/350
+1/108, train_loss: 0.2734
+11/108, train_loss: 0.2650
+21/108, train_loss: 0.3225
+31/108, train_loss: 0.1788
+41/108, train_loss: 0.3954
+51/108, train_loss: 0.2219
+61/108, train_loss: 0.0656
+71/108, train_loss: 0.2401
+81/108, train_loss: 0.2664
+91/108, train_loss: 0.3517
+101/108, train_loss: 0.0913
+[2022-06-19 11:04:49]epoch 227 average loss: 0.2366
+----------
+[2022-06-19 11:04:49] epoch 228/350
+1/108, train_loss: 0.2656
+11/108, train_loss: 0.2664
+21/108, train_loss: 0.1154
+31/108, train_loss: 0.2841
+41/108, train_loss: 0.0582
+51/108, train_loss: 0.1191
+61/108, train_loss: 0.1121
+71/108, train_loss: 0.1865
+81/108, train_loss: 0.3556
+91/108, train_loss: 0.2424
+101/108, train_loss: 0.2337
+[2022-06-19 11:10:19]epoch 228 average loss: 0.2449
+[2022-06-19 11:12:04] current epoch: 228 current mean dice: 0.5202
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 11:12:04] epoch 229/350
+1/108, train_loss: 0.2792
+11/108, train_loss: 0.1334
+21/108, train_loss: 0.2120
+31/108, train_loss: 0.3275
+41/108, train_loss: 0.1696
+51/108, train_loss: 0.2267
+61/108, train_loss: 0.2999
+71/108, train_loss: 0.2232
+81/108, train_loss: 0.2672
+91/108, train_loss: 0.3527
+101/108, train_loss: 0.3411
+[2022-06-19 11:17:30]epoch 229 average loss: 0.2451
+----------
+[2022-06-19 11:17:30] epoch 230/350
+1/108, train_loss: 0.4155
+11/108, train_loss: 0.1766
+21/108, train_loss: 0.2179
+31/108, train_loss: 0.1910
+41/108, train_loss: 0.1104
+51/108, train_loss: 0.3614
+61/108, train_loss: 0.2512
+71/108, train_loss: 0.2344
+81/108, train_loss: 0.1645
+91/108, train_loss: 0.3905
+101/108, train_loss: 0.2190
+[2022-06-19 11:22:55]epoch 230 average loss: 0.2439
+[2022-06-19 11:24:42] current epoch: 230 current mean dice: 0.5280
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 11:24:43] epoch 231/350
+1/108, train_loss: 0.3576
+11/108, train_loss: 0.1844
+21/108, train_loss: 0.2879
+31/108, train_loss: 0.3439
+41/108, train_loss: 0.2095
+51/108, train_loss: 0.2364
+61/108, train_loss: 0.2865
+71/108, train_loss: 0.3795
+81/108, train_loss: 0.2744
+91/108, train_loss: 0.1463
+101/108, train_loss: 0.1632
+[2022-06-19 11:30:13]epoch 231 average loss: 0.2525
+----------
+[2022-06-19 11:30:13] epoch 232/350
+1/108, train_loss: 0.3239
+11/108, train_loss: 0.0993
+21/108, train_loss: 0.0597
+31/108, train_loss: 0.1484
+41/108, train_loss: 0.1913
+51/108, train_loss: 0.3872
+61/108, train_loss: 0.1803
+71/108, train_loss: 0.1666
+81/108, train_loss: 0.3336
+91/108, train_loss: 0.3823
+101/108, train_loss: 0.2166
+[2022-06-19 11:35:44]epoch 232 average loss: 0.2459
+[2022-06-19 11:37:35] current epoch: 232 current mean dice: 0.4761
+best mean dice: 0.6845 at epoch: 158
+----------
+[2022-06-19 11:37:35] epoch 233/350
+1/108, train_loss: 0.2150
+11/108, train_loss: 0.2186
+21/108, train_loss: 0.3076
+31/108, train_loss: 0.1476
+41/108, train_loss: 0.2756
+slurmstepd: error: *** JOB 585785 ON bmicgpu06 CANCELLED AT 2022-06-19T11:40:37 ***
